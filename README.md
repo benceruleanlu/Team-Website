@@ -9,5 +9,5 @@ Team website rewrite in Next.js.
    - If the item is in the "Ready" column, move to "In progress" on start
 3. Add yourself as an assignee
 4. If the item requires, open a branch or pull request for the item's issue
-5. When writing commit messages, follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) style.
+5. When writing commit messages, follow [Angular's commit message formatting](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).
 6. On completion, move the item to the "In review" column
