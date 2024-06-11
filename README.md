@@ -12,9 +12,12 @@ Team website rewrite in Next.js.
 5. When writing commit messages, follow [Angular's commit message formatting](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).
 6. On completion, move the item to the "In review" column
 
-## Important Notice
-Please do not push directly to the main branch!
+> [!IMPORTANT]
+> Please do not push directly to the main branch!
+>
+> When working on an issue, create a pull request or branch for code review.
 
-The main branch is our release level branch, where every change is automatically deployed to the website.
+## Notice for General Public
+This repository is for members of Absolute Robotics to contribute to.
 
-When working on an issue, please create a pull request or branch for code review.
+We're working on a way to have the repository private while still hosting on GitHub pages.
