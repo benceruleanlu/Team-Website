@@ -1,7 +1,9 @@
 # Website for Absolute Robotics
+
 Team website rewrite in Next.js.
 
 ## Contribute
+
 1. Check out the [GitHub Project](https://github.com/orgs/Team4308/projects/3).
 2. Choose an item
    - Must be in the "Ready" or "In progress" columns
@@ -18,6 +20,7 @@ Team website rewrite in Next.js.
 > When working on an issue, create a pull request or branch for code review.
 
 ## Notice for General Public
+
 This repository is for members of Absolute Robotics to contribute to.
 
 We're working on a way to have the repository private while still hosting on GitHub pages.
