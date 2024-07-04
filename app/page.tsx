@@ -9,7 +9,7 @@ export default function Home() {
       {/* Mobile site */}
       <div className="bg-[#050505] text-white md:hidden">
         {/* Navbar */}
-        <div className="fixed w-screen top-0 flex flex-row justify-between bg-gradient-to-b from-[#050505] p-4">
+        <div className="fixed top-0 flex w-screen flex-row justify-between bg-gradient-to-b from-[#050505] p-4">
           <div className="flex flex-row space-x-4">
             <Image src="/logo.svg" alt="team logo" width={30} height={30} />
             <p className="self-center text-lg">Absolute Robotics</p>
@@ -20,8 +20,8 @@ export default function Home() {
         {/* Hero */}
         <div>
           <Spline
-            scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode" 
-            style={{ width: "100vw", height: "40vh"}}
+            scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
+            style={{ width: "100vw", height: "40vh" }}
           />
           <div className="mx-auto w-11/12 space-y-6 text-center">
             <p className="text-5xl font-semibold leading-tight tracking-tight">
