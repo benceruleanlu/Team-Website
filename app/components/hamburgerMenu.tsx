@@ -21,7 +21,7 @@ const MyComponent = () => {
         <rect y="60" width="100" height="10"></rect>
       </svg>
       <div
-        className={`fixed right-0 top-0 transform ${open ? "translate-x-0" : "translate-x-full"} flex h-screenw-screen flex-col bg-neutral-900 p-12 transition-transform duration-300 ease-in-out`}
+        className={`fixed right-0 top-0 transform ${open ? "translate-x-0" : "translate-x-full"} flex h-screen w-screen flex-col bg-neutral-900 p-12 transition-transform duration-300 ease-in-out`}
       >
         <div className="flex flex-row items-center justify-between">
           <p className="text-2xl font-semibold">Navigation</p>
