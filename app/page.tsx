@@ -8,7 +8,7 @@ export default function Home() {
       {/* Mobile site */}
       <div className="bg-[#050505] text-white md:hidden">
         {/* Navbar */}
-        <div className="flex flex-row justify-between bg-[#050505] p-4">
+        <div className="flex flex-row justify-between p-4 sticky top-0 bg-gradient-to-b from-[#050505]">
           <div className="flex flex-row space-x-4">
             <Image src="/logo.svg" alt="team logo" width={32} height={32} />
             <p className="self-center text-xl font-semibold">
