@@ -12,7 +12,7 @@ const MyComponent = () => {
         viewBox="0 0 100 80"
         width="24"
         height="24"
-        fill="#FFFFFF"
+        fill="#D6D6D6"
         className="m-1 cursor-pointer self-center"
         onClick={toggleOpen}
       >
