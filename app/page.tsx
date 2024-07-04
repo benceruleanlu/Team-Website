@@ -25,20 +25,12 @@ export default function Home() {
             className="mt-2 mb-6"
           />
           <div className="text-center my-6 space-y-4 w-11/12 mx-auto">
-            <p className="text-5xl font-semibold tracking-tight">Training future engineers</p>
-            <p className="text-xl text-neutral-500">Pushing the boundaries of robotics and engineering excellence, one robot at a time</p>
-          </div>
-          <br />
-          <br />
-          <br />
-          <div className="">
-            Sponsor
-          </div>
-          <div>
-            Join Team
+            <p className="text-5xl font-semibold tracking-tight"><span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-zinc-400">Training future engineers</span></p>
+            <p className="text-xl text-slate-11">Pushing the boundaries of robotics and engineering excellence</p>
           </div>
         </div>
 
+        {/* Content */}
         <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
