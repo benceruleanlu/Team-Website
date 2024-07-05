@@ -1,7 +1,7 @@
-import Link from "next/link";
 import Spline from "@splinetool/react-spline/next";
 import Navbar from "./components/navbar";
 import SponsorCarousel from "./components/sponsorCarousel";
+import Button from "./components/button";
 
 export default function Home() {
   return (
@@ -26,50 +26,16 @@ export default function Home() {
               ducimus minus ipsa reprehenderit veritatis doloribus molestiae.
             </p>
             <div className="flex flex-col space-y-2">
-              <Link
-                href="/sponsor"
+              <Button
+                text="Sponsor"
+                link="/sponsor"
                 className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black"
-              >
-                Sponsor
-                <svg
-                  className="text-[#70757E]"
-                  fill="none"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.75 8.75L14.25 12L10.75 15.25"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  ></path>
-                </svg>
-              </Link>
-              <Link
-                href="/join"
+              />
+              <Button
+                text="Join"
+                link="/join"
                 className="flex flex-row justify-center rounded-full p-3 font-semibold text-neutral-400"
-              >
-                Join
-                <svg
-                  className="text-[#70757E]"
-                  fill="none"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.75 8.75L14.25 12L10.75 15.25"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                  ></path>
-                </svg>
-              </Link>
+              />
             </div>
           </div>
         </div>
