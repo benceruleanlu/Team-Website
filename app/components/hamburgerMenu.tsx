@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const MyComponent = () => {
-  const [open, setOpen] = useState(false); // Start closed
+  const [open, setOpen] = useState(false);
   const toggleOpen = () => setOpen(!open);
 
   return (

@@ -1,22 +1,14 @@
-import Spline from "@splinetool/react-spline/next";
-import Image from "next/image";
-import HamburgerMenu from "./components/hamburgerMenu";
 import Link from "next/link";
+import Spline from "@splinetool/react-spline/next";
+import Navbar from "./components/navbar";
+import SponsorCarousel from "./components/sponsorCarousel";
 
 export default function Home() {
   return (
     <>
       {/* Mobile site */}
       <div className="bg-[#050505] text-white md:hidden">
-        {/* Navbar */}
-        <div className="fixed top-0 flex w-screen flex-row justify-between bg-gradient-to-b from-[#050505] p-4">
-          <div className="flex flex-row space-x-4">
-            <Image src="/logo.svg" alt="team logo" width={30} height={30} />
-            <p className="self-center text-lg">Absolute Robotics</p>
-          </div>
-          <HamburgerMenu />
-        </div>
-
+        <Navbar />
         {/* Hero */}
         <div>
           <Spline
@@ -82,9 +74,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-screen bg-[#050505]"></div>
-
         {/* Sponsored By */}
+        <SponsorCarousel />
 
         {/* Feature Showcase 1: Technical design */}
         {/* Feature Showcase 2: Controls & web programming */}
