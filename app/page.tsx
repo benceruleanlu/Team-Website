@@ -86,6 +86,8 @@ export default function Home() {
         {/* Last call CTA */}
 
         {/* Footer */}
+
+        <div className="h-screen w-screen bg-[#050505]"></div>
       </div>
 
       {/* Desktop site */}
