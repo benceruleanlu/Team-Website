@@ -4,7 +4,7 @@ export default function Spoonsors() {
   return (
     <div className='w-11/12 mx-auto'>
       <p className='text-center text-neutral-400 mb-6'>Generously sponsored by</p>
-      <div className='flex flex-row flex-wrap justify-around gap-x-8 gap-y-4'>
+      <div className='flex flex-row flex-wrap justify-center gap-x-10 gap-y-4'>
         <Image
           src="/westonForest.png"
           width={100}

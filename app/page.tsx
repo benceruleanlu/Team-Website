@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import SponsorCarousel from "./components/sponsorCarousel";
 import Button from "./components/button";
 import FancyDivider from "./components/fancyDivider";
+import Feature from "./components/feature";
 
 export default function Home() {
   return (
@@ -10,7 +11,6 @@ export default function Home() {
       {/* Mobile site */}
       <div className="bg-[#050505] text-white md:hidden">
         <Navbar />
-        {/* Hero */}
         <div>
           <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
@@ -40,14 +40,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* Fancy Divider */}
         <FancyDivider />
-
-        {/* Sponsored By */}
         <SponsorCarousel />
 
         {/* Feature Showcase 1: Technical design */}
+        <Feature
+          spline="https://prod.spline.design/H3HOtgb0Lpics6r2/scene.splinecode"
+          title="Technical Design"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus minus ipsa reprehenderit veritatis doloribus molestiae."
+        />
         {/* Feature Showcase 2: Controls & web programming */}
         {/* Feature Showcase 3: Mechanical build */}
 
