@@ -2,6 +2,7 @@ import Spline from "@splinetool/react-spline/next";
 import Navbar from "./components/navbar";
 import SponsorCarousel from "./components/sponsorCarousel";
 import Button from "./components/button";
+import FancyDivider from "./components/fancyDivider";
 
 export default function Home() {
   return (
@@ -39,6 +40,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Fancy Divider */}
+        <FancyDivider />
 
         {/* Sponsored By */}
         <SponsorCarousel />
