@@ -1,6 +1,6 @@
 export default function FancyDivider() {
   return (
-    <div className="border-t rounded-lg w-screen h-24mx-auto px-6 py-5 sm:py-24 max-w-5xl md:max-w-7xl relative rounded-[1.5rem] border-t border-[#d6ebfd30] mt-24 flex flex-col items-center">
+    <div className="border-t rounded-3xl w-screen h-24mx-auto px-6 py-5 sm:py-24 max-w-5xl md:max-w-7xl relative border-t border-[#d6ebfd30] mt-24 flex flex-col items-center">
       <div
         className="left-1/2 top-0 w-[300px] max-w-[300px] pointer-events-none absolute h-px max-w-full -translate-x-1/2 -translate-y-1/2"
         style={{
