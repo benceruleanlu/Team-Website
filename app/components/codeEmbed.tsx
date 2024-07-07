@@ -1,19 +1,47 @@
-"use client"
+"use client";
 
-import { useEffect } from 'react';
-import Prism from 'prismjs';
-import 'prismjs/themes/prism-tomorrow.css';
-import 'prismjs/components/prism-java';
+import { useEffect, useState } from "react";
+import Prism from "prismjs";
+import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/components/prism-java";
 
 const CodeBlock = () => {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
 
+  const [selected, setSelected] = useState<string>("Java");
+
+  const handleLanguageChange = (language: string) => {
+    setSelected(language);
+  };
+
   return (
-    <pre className='max-h-[60vh] overflow-y-auto rounded-3xl !bg-[#050505] border border-[#d6ebfd30] border p-4 line-numbers'>
-      <code className="language-java">
-        {`package ca.team4308.absolutelib.control;
+    <>
+      <div className="flex flex-row space-x-4 rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
+        <div
+          className={`cursor-pointer ${selected === "Java" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          onClick={() => handleLanguageChange("Java")}
+        >
+          Java
+        </div>
+        <div
+          className={`cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          onClick={() => handleLanguageChange("Next.js")}
+        >
+          Next.js
+        </div>
+        <div
+          className={`cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          onClick={() => handleLanguageChange("React Native")}
+        >
+          React Native
+        </div>
+      </div>
+      <pre className="!mt-0 max-h-[60vh] overflow-y-auto rounded-b-3xl border border-[#d6ebfd30] !bg-[#050505] p-4">
+        {selected === "Java" && (
+          <code className="language-java">
+            {`package ca.team4308.absolutelib.control;
 
 import ca.team4308.absolutelib.math.Vector2;
 import ca.team4308.absolutelib.math.DoubleUtils;
@@ -45,9 +73,71 @@ public class JoystickHelper {
             double scale = normalizedMag / inputMagnitude;
             return new Vector2(stickInput.normalize().x * scale, stickInput.normalize().y * scale);
         }
-    }`}
-      </code>
-    </pre>
+    }
+}`}
+          </code>
+        )}
+        {selected === "Next.js" && (
+          <code className="language-tsx">
+            {`import * as React from "react"
+
+import { cn } from "@/lib/utils"
+
+const Table = React.forwardRef<
+  HTMLTableElement,
+  React.HTMLAttributes<HTMLTableElement>
+>(({ className, ...props }, ref) => (
+  <div className="relative w-full overflow-auto">
+    <table
+      ref={ref}
+      className={cn("w-full caption-bottom text-sm", className)}
+      {...props}
+    />
+  </div>
+))
+Table.displayName = "Table"`}
+          </code>
+        )}
+        {selected === "React Native" && (
+          <code className="language-tsx">
+            {`const DropdownInput = ({
+  label,
+  options,
+  selectedOption,
+  setSelectedOption,
+}) => (
+  <View style={styles.criteriaContainer}>
+    <Text style={styles.criteriaText}>{label}</Text>
+    <View style={{
+      borderWidth: 1,
+      borderColor: '#fff',
+      marginTop: 10,
+      height: Platform.OS === 'ios' ? 60 : undefined,
+      overflow: Platform.OS === 'ios' ? 'hidden' : undefined,
+      justifyContent: Platform.OS === 'ios' ? 'center' : undefined,
+    }}>
+      <Picker
+        selectedValue={selectedOption}
+        onValueChange={(itemValue) => setSelectedOption(itemValue)}
+        style={{color: '#fff'}}
+        dropdownIconColor={'#fff'}
+      >
+        {options.map((option, index) => (
+          <Picker.Item
+            key={index}
+            label={option}
+            value={option}
+            color={Platform.OS === 'ios' ? "#fff" : undefined}
+          />
+        ))}
+      </Picker>
+    </View>
+  </View>
+);`}
+          </code>
+        )}
+      </pre>
+    </>
   );
 };
 
