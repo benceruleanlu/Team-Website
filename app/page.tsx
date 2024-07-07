@@ -1,9 +1,10 @@
 import Spline from "@splinetool/react-spline/next";
+import Image from "next/image";
 import Navbar from "./components/navbar";
 import SponsorCarousel from "./components/sponsorCarousel";
 import Button from "./components/button";
 import FancyDivider from "./components/fancyDivider";
-import Image from "next/image";
+import CodeEmbed from "./components/codeEmbed";
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
       <div className="bg-[#050505] text-white md:hidden">
         <Navbar />
         <div>
-          <Spline
+          {/* <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
             style={{ width: "100vw", height: "40vh" }}
-          />
+          /> */}
           <div className="mx-auto w-11/12 space-y-6 text-center mb-24">
             <p className="text-5xl font-semibold leading-tight tracking-tight">
               <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
@@ -49,7 +50,7 @@ export default function Home() {
             <p className="text-5xl leading-tight tracking-tight">
               Lorem
               <span> </span>
-              <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text text-transparent">
+              <span className="font-semibold bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text text-transparent">
                 ipsum
               </span>
             </p>
@@ -66,9 +67,26 @@ export default function Home() {
           </div>
         </div>
         {/* Feature Showcase 2: Controls & web programming */}
+        <div className="mt-28">
+          <div className="mx-auto w-11/12 space-y-6 text-center">
+            <p className="text-5xl leading-tight tracking-tight">
+              Lorem
+              <span> </span>
+              <span className="font-semibold bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text text-transparent">
+                ipsum
+              </span>
+            </p>
+            <p className="px-1 text-neutral-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deserunt id reprehenderit corrupti minus necessitatibus.
+            </p>
+            <CodeEmbed />
+          </div>
+        </div>
         {/* Feature Showcase 3: Mechanical build */}
 
         {/* Testimonials from alums */}
+
+        {/* Recent team updates as blog posts */}
 
         {/* Last call CTA */}
         <div className="mx-auto w-11/12 space-y-6 text-center mt-24">
