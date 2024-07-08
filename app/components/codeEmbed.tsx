@@ -4,13 +4,16 @@ import { useEffect, useState } from "react";
 import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css";
 import "prismjs/components/prism-java";
+import "prismjs/components/prism-javascript";
+import "prismjs/components/prism-jsx";
+import "prismjs/components/prism-tsx";
 
-const CodeBlock = () => {
+const CodeBlock = () => {  
+  const [selected, setSelected] = useState<string>("Java");
+
   useEffect(() => {
     Prism.highlightAll();
-  }, []);
-
-  const [selected, setSelected] = useState<string>("Java");
+  }, [selected]);
 
   const handleLanguageChange = (language: string) => {
     setSelected(language);
