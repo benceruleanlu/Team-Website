@@ -13,10 +13,10 @@ export default function Home() {
       <div className="bg-[#050505] text-white md:hidden">
         <Navbar />
         <div>
-          {/* <Spline
+          <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
             style={{ width: "100vw", height: "40vh" }}
-          /> */}
+          />
           <div className="mx-auto mb-24 w-11/12 space-y-6 text-center">
             <p className="text-5xl font-semibold leading-tight tracking-tight">
               <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">

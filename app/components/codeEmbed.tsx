@@ -8,7 +8,7 @@ import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
-const CodeBlock = () => {  
+const CodeBlock = () => {
   const [selected, setSelected] = useState<string>("Java");
 
   useEffect(() => {
