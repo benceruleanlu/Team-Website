@@ -91,12 +91,51 @@ export default function Home() {
         {/* Testimonials from alums */}
 
         {/* Recent team updates as blog posts */}
+        <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
+          <p className="text-5xl font-semibold leading-tight tracking-tight">
+            <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
+              News
+            </span>
+          </p>
+          <div className="flex flex-col space-y-3">
+            <div className="relative rounded-3xl border border-[#d6ebfd30]">
+              <div
+                aria-hidden="true"
+                className="absolute right-0 top-0 z-10 h-px w-[300px] !p-0"
+                style={{
+                  background:
+                    "linear-gradient(90deg, rgba(56, 189, 248, 0) 0%, rgba(56, 189, 248, 0) 0%, rgba(232, 232, 232, 0.2) 33.02%, rgba(143, 143, 143, 0.67) 64.41%, rgba(236, 72, 153, 0) 98.93%)",
+                }}
+              ></div>
+              <Image
+                src="/robot.png"
+                alt="lorem ipsum"
+                height={300}
+                width={300}
+                className="w-full rounded-t-3xl"
+              />
+              <p className="px-4 py-2 text-neutral-300">
+                Website developers found dead
+              </p>
+            </div>
+            <div className="rounded-3xl border border-[#d6ebfd30]">
+              <p className="truncate px-4 py-2 text-neutral-300">
+                Website developers reported missing
+              </p>
+            </div>
+            <div className="rounded-3xl border border-[#d6ebfd30]">
+              <p className="truncate px-4 py-2 text-neutral-300">
+                Website developers accused of laziness
+              </p>
+            </div>
+          </div>
+        </div>
 
         {/* Last call CTA */}
         <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
           <p className="text-5xl font-semibold leading-tight tracking-tight">
             <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
-              Get involved.
+              Get involved
             </span>
           </p>
           <div className="flex flex-col space-y-2">

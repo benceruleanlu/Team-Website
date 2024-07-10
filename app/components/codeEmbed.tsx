@@ -21,7 +21,15 @@ const CodeBlock = () => {
 
   return (
     <>
-      <div className="flex flex-row space-x-4 rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
+      <div className="relative flex flex-row space-x-4 rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
+        <div
+          aria-hidden="true"
+          className="absolute right-0 top-0 z-10 h-px w-[300px] !p-0"
+          style={{
+            background:
+              "linear-gradient(90deg, rgba(56, 189, 248, 0) 0%, rgba(56, 189, 248, 0) 0%, rgba(232, 232, 232, 0.2) 33.02%, rgba(143, 143, 143, 0.67) 64.41%, rgba(236, 72, 153, 0) 98.93%)",
+          }}
+        ></div>
         <div
           className={`cursor-pointer ${selected === "Java" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
           onClick={() => handleLanguageChange("Java")}
