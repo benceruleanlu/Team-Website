@@ -4,7 +4,7 @@ export default function Sponsor() {
   return(
     <>
       <Navbar />
-      <p>Placeholder for /parent page</p>
+      <p>Placeholder for /parents page</p>
     </>
   );
 }

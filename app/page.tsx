@@ -1,5 +1,6 @@
 import Spline from "@splinetool/react-spline/next";
 import Image from "next/image";
+import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import SponsorCarousel from "./components/sponsorCarousel";
 import Button from "./components/button";
@@ -153,12 +154,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <FancyDivider curve={false} sharp={true} />
-        <div>
-          <p>Placeholder for footer</p>
-        </div>
-
-        <div className="h-screen w-screen bg-[#050505]"></div>
+        <Footer />
       </div>
 
       {/* Desktop site */}
