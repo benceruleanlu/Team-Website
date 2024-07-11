@@ -36,6 +36,7 @@ const MyComponent = () => {
         </div>
         <hr className="mb-6 mt-1" />
         <ol className="space-y-4">
+          <li><Link href="/" className="text-lg">Home</Link></li>
           <li><Link href="/join" className="text-lg">Students</Link></li>
           <li><Link href="/sponsor" className="text-lg">Sponsors</Link></li>
           <li><Link href="/parent" className="text-lg">Parents</Link></li>
