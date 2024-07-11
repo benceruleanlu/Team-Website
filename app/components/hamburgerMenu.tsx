@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 const MyComponent = () => {
   const [open, setOpen] = useState(false);
@@ -35,9 +36,9 @@ const MyComponent = () => {
         </div>
         <hr className="mb-6 mt-1" />
         <ol className="space-y-4">
-          <li className="text-lg">Students</li>
-          <li className="text-lg">Sponsors</li>
-          <li className="text-lg">Parents</li>
+          <li><Link href="/join" className="text-lg">Students</Link></li>
+          <li><Link href="/sponsor" className="text-lg">Sponsors</Link></li>
+          <li><Link href="/parent" className="text-lg">Parents</Link></li>
         </ol>
       </div>
     </>
