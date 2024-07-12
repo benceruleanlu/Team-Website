@@ -115,19 +115,69 @@ export default function Home() {
                 width={300}
                 className="w-full rounded-t-3xl"
               />
-              <p className="px-4 py-2 text-neutral-300">
-                Website developers found dead
-              </p>
+              <div className="flex flex-row items-center justify-between">
+                <p className="truncate py-2 pl-4 text-left text-sm text-neutral-300">
+                  Jul 15: Scientists fall out of 19th story window
+                </p>
+                <svg
+                  className="mr-1 text-[#70757E]"
+                  fill="none"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.75 8.75L14.25 12L10.75 15.25"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  ></path>
+                </svg>
+              </div>
             </div>
-            <div className="rounded-3xl border border-[#d6ebfd30]">
-              <p className="truncate px-4 py-2 text-neutral-300">
-                Website developers reported missing
+            <div className="flex flex-row items-center justify-between rounded-3xl border border-[#d6ebfd30]">
+              <p className="truncate py-2 pl-4 text-sm text-neutral-300">
+                Jul 13: Scientists discover cure to cancer
               </p>
+              <svg
+                className="mr-1 text-[#70757E]"
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.75 8.75L14.25 12L10.75 15.25"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+              </svg>
             </div>
-            <div className="rounded-3xl border border-[#d6ebfd30]">
-              <p className="truncate px-4 py-2 text-neutral-300">
-                Website developers accused of laziness
+            <div className="flex flex-row items-center justify-between rounded-3xl border border-[#d6ebfd30]">
+              <p className="truncate py-2 pl-4 text-sm text-neutral-300">
+                Jul 7: Website developer marries vtuber
               </p>
+              <svg
+                className="mr-1 text-[#70757E]"
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.75 8.75L14.25 12L10.75 15.25"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+              </svg>
             </div>
           </div>
         </div>
