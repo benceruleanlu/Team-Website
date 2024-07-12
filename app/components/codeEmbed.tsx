@@ -21,7 +21,7 @@ const CodeBlock = () => {
 
   return (
     <>
-      <div className="relative flex flex-row space-x-4 rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
+      <div className="relative flex flex-row rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
         <div
           aria-hidden="true"
           className="absolute right-0 top-0 z-10 h-px w-[300px] !p-0"
@@ -37,13 +37,13 @@ const CodeBlock = () => {
           Java
         </div>
         <div
-          className={`cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          className={`ml-4 cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
           onClick={() => handleLanguageChange("Next.js")}
         >
           Next.js
         </div>
         <div
-          className={`cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          className={`ml-4 cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
           onClick={() => handleLanguageChange("React Native")}
         >
           React Native

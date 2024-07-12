@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar";
 
 export default function Sponsor() {
-  return(
+  return (
     <>
       <Navbar />
       <p>Placeholder for /parents page</p>
