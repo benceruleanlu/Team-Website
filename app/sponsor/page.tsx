@@ -1,7 +1,8 @@
+import Link from "next/link";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Sponsors from "../components/sponsorCarousel";
-import Link from "next/link";
+import Button from "../components/button";
 
 export default function Sponsor() {
   return (
@@ -155,6 +156,23 @@ export default function Sponsor() {
           <p className="text-neutral-400 pl-6">
             A: Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
+        </div>
+      </div>
+      <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
+        <p className="text-4xl font-semibold tracking-tight leading-[120%]">
+          <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
+            Need something else?
+          </span>
+        </p>
+        <p className="px-1 text-neutral-400">
+          Our team is happy to work with you to create a custom sponsorship package that fits your needs.
+        </p>
+        <div className="flex flex-col space-y-2">
+          <Button
+            text="Contact Us"
+            link="/contact"
+            className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black"
+          />
         </div>
       </div>
       <Footer />
