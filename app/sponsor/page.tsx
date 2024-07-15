@@ -141,7 +141,22 @@ export default function Sponsor() {
           </div>
         </Link>
       </div>
-      <Sponsors/>
+      <div className="my-24">
+        <Sponsors/>
+      </div>
+      <div>
+        <p className="mb-8 text-[2.25rem] tracking-tight leading-[130%] w-11/12 mx-auto">
+          Frequenty Asked Questions
+        </p>
+        <div className="w-11/12 rounded-lg mx-auto border border-[#d6ebfd30] mb-4 p-4 space-y-2">
+          <p className="text-neutral-100">
+            Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
+          </p>
+          <p className="text-neutral-400 pl-6">
+            A: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
       <Footer />
     </>
   );
