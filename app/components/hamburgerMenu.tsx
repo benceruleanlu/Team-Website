@@ -56,6 +56,11 @@ const MyComponent = () => {
               Parents
             </Link>
           </li>
+          <li>
+            <Link href="/blog" className="text-lg">
+              Blog
+            </Link>
+          </li>
         </ol>
       </div>
     </>
