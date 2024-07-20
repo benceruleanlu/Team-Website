@@ -22,16 +22,16 @@ export default function Spoonsors() {
           className="object-contain"
         />
         <Image
-          src="/woods.png"
-          width={70}
-          height={70}
+          src="/csa.png"
+          width={80}
+          height={80}
           alt="logo of lorem"
           className="object-contain"
         />
         <Image
-          src="/bramwood.png"
-          width={50}
-          height={50}
+          src="/boeing.png"
+          width={100}
+          height={100}
           alt="logo of lorem"
           className="object-contain"
         />
