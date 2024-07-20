@@ -52,7 +52,7 @@ const MyComponent = () => {
             </Link>
           </li>
           <li>
-            <Link href="/parent" className="text-lg">
+            <Link href="/parents" className="text-lg">
               Parents
             </Link>
           </li>
