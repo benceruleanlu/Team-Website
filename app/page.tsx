@@ -19,7 +19,7 @@ export default function Home() {
             style={{ width: "100vw", height: "40vh" }}
           />
           <div className="mx-auto mb-24 w-11/12 space-y-6 text-center">
-            <p className="text-5xl font-semibold leading-tight tracking-tight">
+            <p className="text-[2.5rem] font-semibold leading-tight tracking-tight">
               <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
                 Training future engineers
               </span>
