@@ -130,18 +130,20 @@ export default function Sponsor() {
         </picture>
         <article className="flex-shrink flex-grow basis-0 text-sm leading-relaxed text-white/65 md:max-w-[29.375rem] md:text-lg md:leading-relaxed">
           <p>
-            For the last step, you'll need to register with
+            For the last step, you&apos;ll need to register with{" "}
             <span className="text-white">FIRST</span> and sign some forms.
           </p>
           <br />
-          <p>This won't be open until closer to the start of the season.</p>
+          <p>
+            This won&apos;t be open until closer to the start of the season.
+          </p>
           <br />
           <p>More details to be provided.</p>
         </article>
       </div>
       <hr className="mx-auto my-14 h-px w-1/3 border-none bg-white/10" />
       <div
-        className="group/water group relative flex w-11/12 mx-auto flex-col items-start justify-center gap-7 md:flex-row"
+        className="group/water group relative mx-auto flex w-11/12 flex-col items-start justify-center gap-7 md:flex-row"
         id="water"
       >
         <picture className="relative flex aspect-square w-full flex-shrink flex-grow basis-0 flex-col-reverse items-start justify-between gap-10 bg-[radial-gradient(98%_98%_at_96%_94%,_rgba(100,100,100,0.1)_0%,_rgba(102,102,102,0)_100%),_linear-gradient(138deg,#101010_10%,#0C0C0C_88%)] px-6 pb-6 pt-7 md:ml-5 md:max-w-[27.5rem] md:gap-0 md:p-7">
@@ -167,9 +169,7 @@ export default function Sponsor() {
           </footer>
         </picture>
         <article className="flex-shrink flex-grow basis-0 text-balance text-sm leading-relaxed text-white/65 md:max-w-[29.375rem] md:text-lg md:leading-relaxed">
-          <p>
-            Optional extras here.
-          </p>
+          <p>Optional extras here.</p>
         </article>
       </div>
       <Footer />
