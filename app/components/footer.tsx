@@ -22,28 +22,17 @@ export default function Footer() {
           </li>
         </ul>
         <ul className="*:text-[#f1f7feb5]">
-          <li className="!text-[#fcfdffef]">Socials</li>
+          <li className="!text-[#fcfdffef]">Contact</li>
           <li>
-            <a href="https://google.ca/" target="_blank">
+            <a href="https://www.instagram.com/frc4308/" target="_blank">
               Instagram
             </a>
           </li>
           <li>
-            <a href="https://google.ca/" target="_blank">
-              Twitter
+            <a href="mailto:the.woodlands.robotics@gmail.com" target="_blank">
+              Email
             </a>
           </li>
-          <li>
-            <a href="https://google.ca/" target="_blank">
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://google.ca/" target="_blank">
-              Discord
-            </a>
-          </li>
-          {/* Ask media which socials we are active on */}
         </ul>
       </div>
     </>
