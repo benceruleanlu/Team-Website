@@ -80,7 +80,9 @@ export default function Home() {
               </span>
             </p>
             <p className="px-1 text-neutral-400">
-              Students learn a variety of transferable skills, from writing code for the robot using Java to working hands-on with advanced electronics.
+              Students learn a variety of transferable skills, from writing code
+              for the robot using Java to working hands-on with advanced
+              electronics.
             </p>
             <CodeEmbed />
           </div>
