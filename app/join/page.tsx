@@ -130,7 +130,7 @@ export default function Sponsor() {
         </picture>
         <article className="flex-shrink flex-grow basis-0 text-sm leading-relaxed text-white/65 md:max-w-[29.375rem] md:text-lg md:leading-relaxed">
           <p>
-            For the last step, you'll need to register with{" "}
+            For the last step, you'll need to register with
             <span className="text-white">FIRST</span> and sign some forms.
           </p>
           <br />
