@@ -10,16 +10,20 @@ import CodeEmbed from "./components/codeEmbed";
 export default function Home() {
   return (
     <>
-      {/* Mobile site */}
-      <div className="bg-[#050505] text-white md:hidden">
+      <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Navbar />
-        <div>
+        <div className="md:flex md:h-screen md:flex-row-reverse md:items-center">
           <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
             style={{ width: "100vw", height: "40vh" }}
+            className={"block md:hidden"}
           />
-          <div className="mx-auto mb-24 w-11/12 space-y-6 text-center">
-            <p className="text-[2.5rem] font-semibold leading-tight tracking-tight">
+          <Spline
+            scene="https://prod.spline.design/WG9UFhrJ7C7BVk0y/scene.splinecode"
+            className={"hidden md:block"}
+          />
+          <div className="mx-auto mb-24 w-11/12 space-y-6 text-center md:mt-24 md:text-left">
+            <p className="text-[2.5rem] font-semibold leading-tight tracking-tight md:text-6xl">
               <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
                 Training future engineers
               </span>
@@ -28,11 +32,11 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
               ducimus minus ipsa reprehenderit veritatis doloribus molestiae.
             </p>
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-2 md:flex-row md:space-x-4 md:space-y-0">
               <Button
                 text="Sponsor"
                 link="/sponsor"
-                className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black"
+                className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black md:pl-6 md:pr-3"
               />
               <Button
                 text="Join"
@@ -42,11 +46,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <FancyDivider curve={true} sharp={false} />
         <SponsorCarousel />
 
-        {/* Feature Showcase 1: Technical design */}
-        <div className="mt-28">
+        <div className="mt-32">
           <div className="mx-auto w-11/12 space-y-6 text-center">
             <p className="text-5xl leading-tight tracking-tight">
               Lorem
@@ -69,7 +73,7 @@ export default function Home() {
             />
           </div>
         </div>
-        {/* Feature Showcase 2: Controls & web programming */}
+
         <div className="mt-28">
           <div className="mx-auto w-11/12 space-y-6 text-center">
             <p className="text-5xl leading-tight tracking-tight">
@@ -87,11 +91,7 @@ export default function Home() {
             <CodeEmbed />
           </div>
         </div>
-        {/* Feature Showcase 3: Mechanical build */}
 
-        {/* Testimonials from alums */}
-
-        {/* Recent team updates as blog posts */}
         <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
           <p className="text-5xl font-semibold leading-tight tracking-tight">
             <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
@@ -130,9 +130,9 @@ export default function Home() {
                   <path
                     d="M10.75 8.75L14.25 12L10.75 15.25"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                   ></path>
                 </svg>
               </div>
@@ -152,9 +152,9 @@ export default function Home() {
                 <path
                   d="M10.75 8.75L14.25 12L10.75 15.25"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                 ></path>
               </svg>
             </div>
@@ -173,27 +173,26 @@ export default function Home() {
                 <path
                   d="M10.75 8.75L14.25 12L10.75 15.25"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                 ></path>
               </svg>
             </div>
           </div>
         </div>
 
-        {/* Last call CTA */}
-        <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
-          <p className="text-5xl font-semibold leading-tight tracking-tight">
+        <div className="mx-auto mt-24 w-11/12 space-y-6 text-center md:mb-24 md:space-y-8">
+          <p className="text-5xl font-semibold leading-tight tracking-tight md:text-6xl">
             <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
-              Get involved
+              Get involved.
             </span>
           </p>
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-2 md:flex-row md:justify-center md:space-x-4 md:space-y-0">
             <Button
               text="Sponsor"
               link="/sponsor"
-              className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black"
+              className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black md:pl-6 md:pr-3"
             />
             <Button
               text="Join"
@@ -203,29 +202,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Footer */}
         <Footer />
-      </div>
-
-      {/* Desktop site */}
-      <div className="hidden bg-[#050505] text-white md:inline">
-        {/* Hero */}
-        <Spline
-          scene="https://prod.spline.design/WG9UFhrJ7C7BVk0y/scene.splinecode"
-          className="hidden md:block"
-        />
-
-        {/* Sponsored By */}
-
-        {/* Feature Showcase 1: Technical design */}
-        {/* Feature Showcase 2: Controls & web programming */}
-        {/* Feature Showcase 3: Mechanical build */}
-
-        {/* Testimonials from alums */}
-
-        {/* Last call CTA */}
-
-        {/* Footer */}
       </div>
     </>
   );

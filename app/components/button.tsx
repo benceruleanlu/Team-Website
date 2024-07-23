@@ -24,9 +24,9 @@ export default function wideButton({
           <path
             d="M10.75 8.75L14.25 12L10.75 15.25"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
           ></path>
         </svg>
       </Link>
