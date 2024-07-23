@@ -139,6 +139,39 @@ export default function Sponsor() {
           <p>More details to be provided.</p>
         </article>
       </div>
+      <hr className="mx-auto my-14 h-px w-1/3 border-none bg-white/10" />
+      <div
+        className="group/water group relative flex w-11/12 mx-auto flex-col items-start justify-center gap-7 md:flex-row"
+        id="water"
+      >
+        <picture className="relative flex aspect-square w-full flex-shrink flex-grow basis-0 flex-col-reverse items-start justify-between gap-10 bg-[radial-gradient(98%_98%_at_96%_94%,_rgba(100,100,100,0.1)_0%,_rgba(102,102,102,0)_100%),_linear-gradient(138deg,#101010_10%,#0C0C0C_88%)] px-6 pb-6 pt-7 md:ml-5 md:max-w-[27.5rem] md:gap-0 md:p-7">
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0"
+          >
+            <div className="absolute right-0 top-0 h-10 w-10 bg-black"></div>
+            <div className="absolute right-[5rem] top-0 h-10 w-10 bg-black"></div>
+            <div className="absolute right-[2.5rem] top-[2.5rem] h-10 w-10 bg-black"></div>
+            <div className="absolute right-[5rem] top-[5rem] h-10 w-10 bg-black"></div>
+          </div>
+          <header>
+            <h3
+              className="font-display relative text-pretty text-4xl leading-tight [font-feature-settings:_'ss01'_on,_'ss04'_on] md:text-6xl md:leading-[100%]"
+              style={{ letterSpacing: 0 }}
+            >
+              Extras
+            </h3>
+          </header>
+          <footer>
+            <h2 className="font-cako relative text-6xl md:text-9xl">4</h2>
+          </footer>
+        </picture>
+        <article className="flex-shrink flex-grow basis-0 text-balance text-sm leading-relaxed text-white/65 md:max-w-[29.375rem] md:text-lg md:leading-relaxed">
+          <p>
+            Optional extras here.
+          </p>
+        </article>
+      </div>
       <Footer />
     </>
   );
