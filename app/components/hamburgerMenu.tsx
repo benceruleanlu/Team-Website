@@ -61,6 +61,11 @@ const MyComponent = () => {
               Blog
             </Link>
           </li>
+          <li>
+            <Link href="/contact" className="text-lg">
+              Contact Us
+            </Link>
+          </li>
         </ol>
       </div>
     </>
