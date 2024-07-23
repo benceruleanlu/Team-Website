@@ -20,6 +20,9 @@ export default function Footer() {
           <li>
             <Link href="/parents">Parents</Link>
           </li>
+          <li>
+            <Link href="/blog">Blog</Link>
+          </li>
         </ul>
         <ul className="*:text-[#f1f7feb5]">
           <li className="!text-[#fcfdffef]">Contact</li>
