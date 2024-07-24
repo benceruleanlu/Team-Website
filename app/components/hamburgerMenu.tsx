@@ -23,7 +23,7 @@ const MyComponent = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant={"outline"} size={"icon"} className="mr-4">
+        <Button variant={"outline"} size={"icon"} className="absolute top-4 right-4 mr-4">
           <Menu />
         </Button>
       </SheetTrigger>
