@@ -12,15 +12,15 @@ export default function Home() {
     <>
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Navbar />
-        <div className="md:flex md:h-screen md:flex-row-reverse md:items-center">
+        <div className="lg:flex lg:h-screen lg:flex-row-reverse lg:items-center md:w-11/12 md:mx-auto">
           <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
             style={{ width: "100vw", height: "40vh" }}
-            className={"block md:hidden"}
+            className={"block lg:hidden"}
           />
           <Spline
             scene="https://prod.spline.design/WG9UFhrJ7C7BVk0y/scene.splinecode"
-            className={"hidden md:block"}
+            className={"hidden lg:block"}
           />
           <div className="mx-auto mb-24 w-11/12 space-y-6 text-center md:mt-24 md:text-left">
             <p className="text-[2.5rem] font-semibold leading-tight tracking-tight md:text-6xl">
