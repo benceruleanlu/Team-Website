@@ -3,67 +3,68 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Atom, Home, Menu, PersonStanding, Rss, School } from "lucide-react";
+
+// home, students, sponsors, parents, blog
+
 const MyComponent = () => {
   const [open, setOpen] = useState(false);
   const toggleOpen = () => setOpen(!open);
 
   return (
-    <>
-      <svg
-        viewBox="0 0 100 80"
-        width="24"
-        height="24"
-        fill="#D6D6D6"
-        className="m-1 cursor-pointer self-center"
-        onClick={toggleOpen}
-      >
-        <rect width="100" height="10"></rect>
-        <rect y="30" width="100" height="10"></rect>
-        <rect y="60" width="100" height="10"></rect>
-      </svg>
-      <div
-        className={`fixed right-0 top-0 transform ${open ? "translate-x-0" : "translate-x-full"} flex h-screen w-screen flex-col bg-neutral-900 p-12 transition-transform duration-300 ease-in-out`}
-      >
-        <div className="flex flex-row items-center justify-between">
-          <p className="text-2xl font-semibold">Navigation</p>
-          <svg viewBox="0 0 40 40" width="40" height="40" onClick={toggleOpen}>
-            <path
-              d="M 10,10 L 30,30 M 30,10 L 10,30"
-              stroke="#FFFFFF"
-              strokeWidth="4"
-            />
-          </svg>
-        </div>
-        <hr className="mb-6 mt-1" />
-        <ol className="space-y-4">
-          <li>
-            <Link href="/" className="text-lg">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href="/join" className="text-lg">
-              Students
-            </Link>
-          </li>
-          <li>
-            <Link href="/sponsor" className="text-lg">
-              Sponsors
-            </Link>
-          </li>
-          <li>
-            <Link href="/parents" className="text-lg">
-              Parents
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog" className="text-lg">
-              Blog
-            </Link>
-          </li>
-        </ol>
-      </div>
-    </>
+    <Sheet>
+      <SheetTrigger asChild>
+        <Button variant={"outline"} size={"icon"} className="mr-4">
+          <Menu />
+        </Button>
+      </SheetTrigger>
+      <SheetContent>
+        <SheetHeader>
+          <SheetTitle className="py-4">Absolute Robotics</SheetTitle>
+          <SheetDescription className="flex flex-col gap-y-2">
+            <Button asChild variant={"ghost"} size={"lg"}>
+              <Link href="/home">
+                <Home className="mr-2 h-5 w-5" />
+                Home
+              </Link>
+            </Button>
+            <Button asChild variant={"ghost"} size={"lg"}>
+              <Link href="/students">
+                <School className="mr-2 h-5 w-5" />
+                Students
+              </Link>
+            </Button>
+            <Button asChild variant={"ghost"} size={"lg"}>
+              <Link href="/sponsors">
+                <Atom className="mr-2 h-5 w-5" />
+                Sponsors
+              </Link>
+            </Button>
+            <Button asChild variant={"ghost"} size={"lg"}>
+              <Link href="/parents">
+                <PersonStanding className="mr-2 h-5 w-5" />
+                Parents
+              </Link>
+            </Button>
+            <Button asChild variant={"ghost"} size={"lg"}>
+              <Link href="/blog">
+                <Rss className="mr-2 h-5 w-5" />
+                Blog
+              </Link>
+            </Button>
+          </SheetDescription>
+        </SheetHeader>
+      </SheetContent>
+    </Sheet>
   );
 };
 
