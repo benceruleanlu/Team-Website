@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Spoonsors() {
   return (
     <div className="mx-auto w-11/12">
-      <p className="mb-6 text-center text-neutral-400">
+      <p className="mb-6 md:mb-12 md:-mt-6 text-center text-neutral-400">
         Generously sponsored by
       </p>
       <div className="flex flex-row flex-wrap place-content-around gap-x-10 gap-y-4">
