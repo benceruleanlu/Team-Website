@@ -7,6 +7,7 @@ import Button from "./components/button";
 import FancyDivider from "./components/fancyDivider";
 import CodeEmbed from "./components/codeEmbed";
 import Link from "next/link";
+import Carousel from "./components/carousel";
 
 export default function Home() {
   return (
@@ -64,13 +65,7 @@ export default function Home() {
               Students are trained to use industry standard CAD software,
               machinery, and power tools to design and manufacture the robot.
             </p>
-            <Image
-              src="/robot.png"
-              alt="lorem ipsum"
-              height={300}
-              width={300}
-              className="object-fit w-screen"
-            />
+            <Carousel />
           </div>
         </div>
 
