@@ -172,7 +172,9 @@ export default function Sponsor() {
           <p>Optional extras here.</p>
         </article>
       </div>
-      <Footer />
+      <div className="mx-auto max-w-7xl bg-[#050505] text-white">
+        <Footer />
+      </div>
     </>
   );
 }

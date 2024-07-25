@@ -296,15 +296,33 @@ export default function Sponsor() {
           Our team is happy to work with you to create a custom sponsorship
           package that fits your needs.
         </p>
-        <div className="flex flex-col space-y-2">
-          <Button
-            text="Contact Us"
-            link="/contact"
-            className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black"
-          />
-        </div>
+        <a
+          className="flex h-10 flex-row items-center justify-center rounded-full bg-white pl-5 pr-2 font-semibold text-black w-max mx-auto"
+          href="mailto:the.woodlands.robotics@gmail.com"
+          target="_blank"
+        >
+          Email Us
+          <svg
+            className="text-[#70757E]"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.75 8.75L14.25 12L10.75 15.25"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.5"
+            ></path>
+          </svg>
+        </a>
       </div>
-      <Footer />
+      <div className="mx-auto max-w-7xl bg-[#050505] text-white">
+        <Footer />
+      </div>
     </>
   );
 }
