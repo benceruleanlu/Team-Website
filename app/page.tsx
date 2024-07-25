@@ -6,13 +6,14 @@ import SponsorCarousel from "./components/sponsorCarousel";
 import Button from "./components/button";
 import FancyDivider from "./components/fancyDivider";
 import CodeEmbed from "./components/codeEmbed";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Navbar />
-        <div className="lg:flex lg:h-screen lg:flex-row-reverse lg:items-center md:w-11/12 md:mx-auto">
+        <div className="md:mx-auto md:w-11/12 lg:flex lg:h-screen lg:flex-row-reverse lg:items-center">
           <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
             style={{ width: "100vw", height: "40vh" }}
@@ -92,94 +93,87 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
-          <p className="text-5xl font-semibold leading-tight tracking-tight">
-            <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
-              News
-            </span>
-          </p>
-          <div className="flex flex-col space-y-3">
-            <div className="relative rounded-3xl border border-[#d6ebfd30]">
-              <div
-                aria-hidden="true"
-                className="absolute right-0 top-0 z-10 h-px w-[300px] !p-0"
-                style={{
-                  background:
-                    "linear-gradient(90deg, rgba(56, 189, 248, 0) 0%, rgba(56, 189, 248, 0) 0%, rgba(232, 232, 232, 0.2) 33.02%, rgba(143, 143, 143, 0.67) 64.41%, rgba(236, 72, 153, 0) 98.93%)",
-                }}
-              ></div>
-              <Image
-                src="/robot.png"
-                alt="lorem ipsum"
-                height={300}
-                width={300}
-                className="w-full rounded-t-3xl"
-              />
-              <div className="flex flex-row items-center justify-between">
-                <p className="truncate py-2 pl-4 text-left text-sm text-neutral-300">
-                  Jul 15: Scientists fall out of 19th story window
-                </p>
-                <svg
-                  className="mr-1 text-[#70757E]"
-                  fill="none"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.75 8.75L14.25 12L10.75 15.25"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-between rounded-3xl border border-[#d6ebfd30]">
-              <p className="truncate py-2 pl-4 text-sm text-neutral-300">
-                Jul 13: Scientists discover cure to cancer
-              </p>
-              <svg
-                className="mr-1 text-[#70757E]"
-                fill="none"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.75 8.75L14.25 12L10.75 15.25"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                ></path>
-              </svg>
-            </div>
-            <div className="flex flex-row items-center justify-between rounded-3xl border border-[#d6ebfd30]">
-              <p className="truncate py-2 pl-4 text-sm text-neutral-300">
-                Jul 7: Website developer marries vtuber
-              </p>
-              <svg
-                className="mr-1 text-[#70757E]"
-                fill="none"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.75 8.75L14.25 12L10.75 15.25"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                ></path>
-              </svg>
-            </div>
-          </div>
+        <div className="mx-auto my-24 mb-0 w-11/12">
+          <h2 className="font-book font-styling font-display text-slate-12 relative z-20 mb-4 text-[2.25rem] leading-[130%] tracking-tight">
+            Read More
+          </h2>
+          <ul className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-16 lg:grid-cols-3">
+            <li>
+              <Link href="/blog">
+                <div className="space-y-2">
+                  <Image
+                    src="/robot.png"
+                    alt="Resend raises $3M"
+                    width={999}
+                    height={999}
+                    className="col-span-2 max-h-64 w-full rounded border border-[#d6ebfd30] object-cover text-transparent lg:rounded-md"
+                  />
+                  <div className="col-span-2">
+                    <h2 className="font-book font-styling font-display text-slate-12 mt-4 line-clamp-5 text-balance text-[28px] text-xl leading-[130%] leading-tight">
+                      Balcita Wins Woodie Flowers
+                    </h2>
+                    <div className="mt-2.5 flex items-center gap-1.5 md:gap-2 lg:mt-3">
+                      <div className="flex gap-1">
+                        <p className="text-sm font-normal text-[#f1f7feb5]">
+                          <time dateTime="2023-07-18">Jul 18, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <div className="space-y-2">
+                  <Image
+                    src="/robot.png"
+                    alt="Resend raises $3M"
+                    width={999}
+                    height={999}
+                    className="col-span-2 max-h-64 w-full rounded border border-[#d6ebfd30] object-cover text-transparent lg:rounded-md"
+                  />
+                  <div className="col-span-2">
+                    <h2 className="font-book font-styling font-display text-slate-12 mt-4 line-clamp-5 text-balance text-[28px] text-xl leading-[130%] leading-tight">
+                      4308 Wins Worlds
+                    </h2>
+                    <div className="mt-2.5 flex items-center gap-1.5 md:gap-2 lg:mt-3">
+                      <div className="flex gap-1">
+                        <p className="text-sm font-normal text-[#f1f7feb5]">
+                          <time dateTime="2023-07-18">Jul 18, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <div className="space-y-2">
+                  <Image
+                    src="/robot.png"
+                    alt="Resend raises $3M"
+                    width={999}
+                    height={999}
+                    className="col-span-2 max-h-64 w-full rounded border border-[#d6ebfd30] object-cover text-transparent lg:rounded-md"
+                  />
+                  <div className="col-span-2">
+                    <h2 className="font-book font-styling font-display text-slate-12 mt-4 line-clamp-5 text-balance text-[28px] text-xl leading-[130%] leading-tight">
+                      4308 Wins Provs
+                    </h2>
+                    <div className="mt-2.5 flex items-center gap-1.5 md:gap-2 lg:mt-3">
+                      <div className="flex gap-1">
+                        <p className="text-sm font-normal text-[#f1f7feb5]">
+                          <time dateTime="2023-07-18">Jul 18, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </li>
+          </ul>
         </div>
 
         <div className="mx-auto mt-24 w-11/12 space-y-6 text-center md:mb-24 md:space-y-8">

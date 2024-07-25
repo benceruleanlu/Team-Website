@@ -25,7 +25,7 @@ export default function Navbar() {
           <Link href="/blog">Blog</Link>
         </li>
       </ul>
-      <div className="hidden items-center md:flex md:flex-row md:space-x-8 text-sm">
+      <div className="hidden items-center text-sm md:flex md:flex-row md:space-x-8">
         <Link
           className="justify-center rounded-full font-semibold text-neutral-400"
           href="/join"
@@ -33,7 +33,7 @@ export default function Navbar() {
           Join
         </Link>
         <Link
-          className="flex flex-row justify-center rounded-full bg-white h-10 items-center pl-5 pr-2 font-semibold text-black"
+          className="flex h-10 flex-row items-center justify-center rounded-full bg-white pl-5 pr-2 font-semibold text-black"
           href="/sponsor"
         >
           Sponsor

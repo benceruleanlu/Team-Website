@@ -7,7 +7,7 @@ export default function FancyDivider({
 }) {
   return (
     <div
-      className={`border-t ${curve ? "rounded-3xl" : ""} h-24mx-auto relative mt-16 flex w-screen max-w-5xl flex-col items-center border-t border-[#d6ebfd30] px-6 py-5 md:py-12 md:max-w-7xl`}
+      className={`border-t ${curve ? "rounded-3xl" : ""} h-24mx-auto relative mt-16 flex w-screen max-w-5xl flex-col items-center border-t border-[#d6ebfd30] px-6 py-5 md:max-w-7xl md:py-12`}
     >
       <div
         className="pointer-events-none absolute left-1/2 top-0 h-px w-[300px] max-w-[300px] max-w-full -translate-x-1/2 -translate-y-1/2"
