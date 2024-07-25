@@ -82,7 +82,9 @@ export default function Home() {
               Students are trained to program in different languages and use a
               variety of industry standard frameworks and tools.
             </p>
-            <CodeEmbed />
+            <div className="max-h-3xl mx-auto">
+              <CodeEmbed />
+            </div>
           </div>
         </div>
 

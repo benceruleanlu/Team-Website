@@ -31,19 +31,19 @@ const CodeBlock = () => {
           }}
         ></div>
         <div
-          className={`cursor-pointer ${selected === "Java" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          className={`cursor-pointer ${selected === "Java" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
           onClick={() => handleLanguageChange("Java")}
         >
           Java
         </div>
         <div
-          className={`ml-4 cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          className={`ml-4 cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
           onClick={() => handleLanguageChange("Next.js")}
         >
           Next.js
         </div>
         <div
-          className={`ml-4 cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80%" : ""}`}
+          className={`ml-4 cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
           onClick={() => handleLanguageChange("React Native")}
         >
           React Native
