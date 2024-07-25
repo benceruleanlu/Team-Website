@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-screen border-b border-white/10 px-6 backdrop-blur-sm">
-      <div className="flex h-[58px] max-w-7xl flex-row justify-between mx-auto">
+      <div className="mx-auto flex h-[58px] max-w-7xl flex-row justify-between">
         <Link href="/">
           <div className="flex h-full flex-row items-center space-x-4">
             <Image src="/logo.svg" alt="team logo" width={30} height={30} />

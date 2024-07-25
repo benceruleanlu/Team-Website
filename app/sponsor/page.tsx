@@ -297,7 +297,7 @@ export default function Sponsor() {
           package that fits your needs.
         </p>
         <a
-          className="flex h-10 flex-row items-center justify-center rounded-full bg-white pl-5 pr-2 font-semibold text-black w-max mx-auto"
+          className="mx-auto flex h-10 w-max flex-row items-center justify-center rounded-full bg-white pl-5 pr-2 font-semibold text-black"
           href="mailto:the.woodlands.robotics@gmail.com"
           target="_blank"
         >

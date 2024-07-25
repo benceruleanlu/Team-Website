@@ -54,16 +54,15 @@ export default function Home() {
         <div className="mt-32">
           <div className="mx-auto w-11/12 space-y-6 text-center">
             <p className="text-5xl leading-tight tracking-tight">
-              Lorem
+              Work in
               <span> </span>
               <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text font-semibold text-transparent">
-                ipsum
+                Engineering
               </span>
             </p>
-            <p className="px-1 text-neutral-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur deserunt id reprehenderit corrupti minus
-              necessitatibus.
+            <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
+              Students are trained to use industry standard CAD software,
+              machinery, and power tools to design and manufacture the robot.
             </p>
             <Image
               src="/robot.png"
@@ -78,16 +77,15 @@ export default function Home() {
         <div className="mt-28">
           <div className="mx-auto w-11/12 space-y-6 text-center">
             <p className="text-5xl leading-tight tracking-tight">
-              Lorem
+              Work in
               <span> </span>
               <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text font-semibold text-transparent">
-                ipsum
+                Development
               </span>
             </p>
-            <p className="px-1 text-neutral-400">
-              Students learn a variety of transferable skills, from writing code
-              for the robot using Java to working hands-on with advanced
-              electronics.
+            <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
+              Students are trained to program in different languages and use a
+              variety of industry standard frameworks and tools.
             </p>
             <CodeEmbed />
           </div>
