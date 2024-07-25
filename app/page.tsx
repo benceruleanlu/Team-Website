@@ -11,8 +11,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
-        <Navbar />
         <div className="md:mx-auto md:w-11/12 lg:flex lg:h-screen lg:flex-row-reverse lg:items-center">
           <Spline
             scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
