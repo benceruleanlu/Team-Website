@@ -172,7 +172,7 @@ export default function Sponsor() {
           <p>Optional extras here.</p>
         </article>
       </div>
-      <div className="relative mb-40 mt-16 w-11/12 pt-32 md:pb-24 mx-auto">
+      <div className="relative mx-auto mb-40 mt-16 w-11/12 pt-32 md:pb-24">
         <h2 className="font-book font-styling font-display text-slate-12 mx-auto text-center text-[2.25rem] leading-[130%] tracking-tight">
           <span
             data-br=":r30:"
@@ -203,8 +203,8 @@ export default function Sponsor() {
           <p>
             After some time training, the team will travel to a{" "}
             <span className="text-[#fcfdffef]">kickoff event</span> where the
-            season's game is revealed and the team decides what the robot will
-            look like.
+            season&apos;s game is revealed and the team decides what the robot
+            will look like.
           </p>
           <br />
           <p>
@@ -221,8 +221,8 @@ export default function Sponsor() {
           </p>
           <br />
           <p>
-            But there's a lot more to robotics than making a robot! A lot of FRC
-            alums say that the best part of robotics is the{" "}
+            But there&apos;s a lot more to robotics than making a robot! A lot
+            of FRC alums say that the best part of robotics is the{" "}
             <span className="text-[#fcfdffef]">people you meet</span>.
           </p>
           <br />
