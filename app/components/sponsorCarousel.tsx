@@ -29,8 +29,8 @@ export default function Spoonsors() {
           className="object-contain"
         />
         <Image
-          src="/boeing.png"
-          width={100}
+          src="/utm.png"
+          width={120}
           height={100}
           alt="logo of lorem"
           className="object-contain"
