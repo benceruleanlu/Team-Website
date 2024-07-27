@@ -62,7 +62,7 @@ export default function Home() {
               </span>
             </p>
             <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
-              Students are trained to use industry standard CAD software,
+              Students are trained in using industry standard CAD software,
               machinery, and power tools to design and manufacture the robot.
             </p>
             <Carousel />
@@ -79,7 +79,7 @@ export default function Home() {
               </span>
             </p>
             <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
-              Students are trained to program in different languages and use a
+              Students are trained to code in multiple languages and use a
               variety of industry standard frameworks and tools.
             </p>
             <div className="max-h-3xl mx-auto">
