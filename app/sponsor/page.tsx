@@ -18,8 +18,8 @@ export default function Sponsor() {
           engineering work to all.
         </p>
       </div>
-      <div className="mx-auto flex h-max w-11/12 flex-wrap justify-center gap-x-8 gap-y-8">
-        <div className="mb-6 w-max rounded-3xl border border-[#d6ebfd30] text-center">
+      <div className="mx-auto flex h-max w-11/12 grid-cols-2 flex-wrap justify-center gap-x-8 gap-y-8 max-w-5xl">
+        <div className="w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
           <p className="mb-8 mt-6">Bronze</p>
           <p className="mb-8 text-4xl">$250+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -94,7 +94,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="4mb-6 h-max w-max rounded-3xl border border-[#d6ebfd30] text-center">
+        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
           <p className="mb-8 mt-6">Silver</p>
           <p className="mb-8 text-4xl">$1000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -153,7 +153,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="mb-6 h-max w-max rounded-3xl border border-[#d6ebfd30] text-center">
+        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
           <p className="mb-8 mt-6">Gold</p>
           <p className="mb-8 text-4xl">$2000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -214,7 +214,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="mb-6 h-max w-max rounded-3xl border border-[#d6ebfd30] text-center">
+        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
           <p className="mb-8 mt-6">Title Sponsor</p>
           <p className="mb-8 text-4xl">$3000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
