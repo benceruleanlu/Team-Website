@@ -172,7 +172,7 @@ export default function Sponsor() {
           <p>Optional extras here.</p>
         </article>
       </div>
-      <div className="relative mb-40 mt-16 pt-32 md:pb-24">
+      <div className="relative mb-40 mt-16 w-11/12 pt-32 md:pb-24 mx-auto">
         <h2 className="font-book font-styling font-display text-slate-12 mx-auto text-center text-[2.25rem] leading-[130%] tracking-tight">
           <span
             data-br=":r30:"
