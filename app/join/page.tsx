@@ -215,14 +215,14 @@ export default function Sponsor() {
           </p>
           <br />
           <p>
-            After a few weeks, the team will travel to event locations where the
+            After a few weeks, the team will travel to event locations where the{" "}
             <span className="text-[#fcfdffef]">competitions</span> will take
             place. You can cheer on the fruits of your labour here!
           </p>
           <br />
           <p>
-            But there's a lot more to robotics than making a robot! A lot of
-            FRC alums say that the best part of robotics is the{" "}
+            But there's a lot more to robotics than making a robot! A lot of FRC
+            alums say that the best part of robotics is the{" "}
             <span className="text-[#fcfdffef]">people you meet</span>.
           </p>
           <br />
