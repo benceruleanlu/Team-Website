@@ -18,8 +18,8 @@ export default function Sponsor() {
           engineering work to all.
         </p>
       </div>
-      <div className="mx-auto flex h-max w-11/12 grid-cols-2 flex-wrap justify-center gap-x-8 gap-y-8 max-w-5xl">
-        <div className="w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
+      <div className="mx-auto flex h-auto w-11/12 max-w-5xl grid-cols-2 flex-wrap items-stretch justify-center gap-x-8 gap-y-8">
+        <div className="w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
           <p className="mb-8 mt-6">Bronze</p>
           <p className="mb-8 text-4xl">$250+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -88,13 +88,13 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Name & logo on team banner</p>
             </li>
           </ul>
-          <Link href="/contact">
+          <Link href="/contact" className="mt-auto">
             <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
               Contact Us
             </div>
           </Link>
         </div>
-        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
+        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
           <p className="mb-8 mt-6">Silver</p>
           <p className="mb-8 text-4xl">$1000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -147,13 +147,13 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Shoutout at competition ceremonies</p>
             </li>
           </ul>
-          <Link href="/contact">
+          <Link href="/contact" className="mt-auto">
             <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
               Contact Us
             </div>
           </Link>
         </div>
-        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
+        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
           <p className="mb-8 mt-6">Gold</p>
           <p className="mb-8 text-4xl">$2000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -208,13 +208,13 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Robot demonstration to company</p>
             </li>
           </ul>
-          <Link href="/contact">
+          <Link href="/contact" className="mt-auto">
             <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
               Contact Us
             </div>
           </Link>
         </div>
-        <div className="h-max w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] lg:w-[450px] md:w-[400px]">
+        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
           <p className="mb-8 mt-6">Title Sponsor</p>
           <p className="mb-8 text-4xl">$3000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -267,7 +267,7 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Anodized robot to company colours</p>
             </li>
           </ul>
-          <Link href="/contact">
+          <Link href="/contact" className="mt-auto">
             <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
               Contact Us
             </div>
