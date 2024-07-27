@@ -274,10 +274,10 @@ export default function Sponsor() {
           </Link>
         </div>
       </div>
-      <div className="my-24">
+      <div className="my-24 max-w-5xl mx-auto">
         <Sponsors />
       </div>
-      <div>
+      <div className="max-w-5xl mx-auto">
         <p className="mx-auto mb-8 w-11/12 text-[2.25rem] leading-[130%] tracking-tight">
           Frequenty Asked Questions
         </p>
