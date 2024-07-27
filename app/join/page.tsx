@@ -172,6 +172,63 @@ export default function Sponsor() {
           <p>Optional extras here.</p>
         </article>
       </div>
+      <div className="relative mb-40 mt-16 pt-32 md:pb-24">
+        <h2 className="font-book font-styling font-display text-slate-12 mx-auto text-center text-[2.25rem] leading-[130%] tracking-tight">
+          <span
+            data-br=":r30:"
+            data-brr="1"
+            style={{
+              display: "inline-block",
+              verticalAlign: "top",
+              textDecoration: "inherit",
+              textWrap: "balance",
+            }}
+          >
+            What to expect
+          </span>
+        </h2>
+        <p className="sans mx-auto mt-12 max-w-[480px] text-base font-normal tracking-wide text-[#f1f7feb5] md:text-[1.125rem] md:leading-[1.5]">
+          <p>
+            After receiving your offers from each{" "}
+            <span className="text-[#fcfdffef]">subteam</span>, you can choose
+            which one you want to join.
+          </p>
+          <br />
+          <p>
+            During preseason, you will be trained in the{" "}
+            <span className="text-[#fcfdffef]">skills</span> required by your
+            subteam.
+          </p>
+          <br />
+          <p>
+            After some time training, the team will travel to a{" "}
+            <span className="text-[#fcfdffef]">kickoff event</span> where the
+            season's game is revealed and the team decides what the robot will
+            look like.
+          </p>
+          <br />
+          <p>
+            Post-kickoff, you will begin putting your training in practice while
+            gaining{" "}
+            <span className="text-[#fcfdffef]">hands-on experience</span>{" "}
+            specialized to your chosen subteam.
+          </p>
+          <br />
+          <p>
+            After a few weeks, the team will travel to event locations where the
+            <span className="text-[#fcfdffef]">competitions</span> will take
+            place. You can cheer on the fruits of your labour here!
+          </p>
+          <br />
+          <p>
+            But there's a lot more to robotics than making a robot! A lot of
+            FRC alums say that the best part of robotics is the{" "}
+            <span className="text-[#fcfdffef]">people you meet</span>.
+          </p>
+          <br />
+          <p></p>
+        </p>
+      </div>
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Footer />
       </div>
