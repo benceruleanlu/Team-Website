@@ -5,13 +5,13 @@ export default function Sponsor() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto my-20 w-11/12 text-center">
+      <div className="mx-auto mb-12 mt-36 w-11/12 space-y-2 text-center">
         <p className="text-5xl font-semibold leading-tight tracking-tight">
           <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
             Join Us
           </span>
         </p>
-        <p className="text-neutral-400">
+        <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
           Register with 4308 for the Reefscape 24/25 season packed with
           technical & mechanical training.
         </p>

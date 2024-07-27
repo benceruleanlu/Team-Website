@@ -7,9 +7,9 @@ export default function Sponsor() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto mb-12 mt-20 w-11/12 space-y-2 text-center">
-        <p className="text-5xl leading-tight tracking-tight">
-          <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text font-semibold text-transparent">
+      <div className="mx-auto mb-12 mt-36 w-11/12 space-y-2 text-center">
+        <p className="text-5xl font-semibold leading-tight tracking-tight">
+          <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
             Sponsor Us
           </span>
         </p>
@@ -274,10 +274,10 @@ export default function Sponsor() {
           </Link>
         </div>
       </div>
-      <div className="my-24 max-w-5xl mx-auto">
+      <div className="mx-auto my-24 max-w-5xl">
         <Sponsors />
       </div>
-      <div className="max-w-5xl mx-auto">
+      <div className="mx-auto max-w-5xl">
         <p className="mx-auto mb-8 w-11/12 text-[2.25rem] leading-[130%] tracking-tight">
           Frequenty Asked Questions
         </p>
