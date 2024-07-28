@@ -269,7 +269,7 @@ export default function Sponsor() {
           </ul>
           <Link href="/contact" className="mt-auto">
             <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
-              Contact Us
+              Available (1/1) - Contact Us
             </div>
           </Link>
         </div>
