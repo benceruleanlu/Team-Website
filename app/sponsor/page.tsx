@@ -2,6 +2,12 @@ import Link from "next/link";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Sponsors from "../components/sponsorCarousel";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Sponsor() {
   return (
@@ -19,7 +25,7 @@ export default function Sponsor() {
         </p>
       </div>
       <div className="mx-auto flex h-auto w-11/12 max-w-5xl grid-cols-2 flex-wrap items-stretch justify-center gap-x-8 gap-y-8">
-        <div className="w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
+        <div className="flex w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Bronze</p>
           <p className="mb-8 text-4xl">$250+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -94,7 +100,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
+        <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Silver</p>
           <p className="mb-8 text-4xl">$1000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -153,7 +159,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
+        <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Gold</p>
           <p className="mb-8 text-4xl">$2000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -214,7 +220,7 @@ export default function Sponsor() {
             </div>
           </Link>
         </div>
-        <div className="h-auto w-full rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px] flex flex-col">
+        <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Title Sponsor</p>
           <p className="mb-8 text-4xl">$3000+</p>
           <ul className="mx-auto w-10/12 space-y-3 text-sm text-[#f1f7feb5]">
@@ -277,18 +283,32 @@ export default function Sponsor() {
       <div className="mx-auto my-24 max-w-5xl">
         <Sponsors />
       </div>
-      <div className="mx-auto max-w-5xl">
-        <p className="mx-auto mb-8 w-11/12 text-[2.25rem] leading-[130%] tracking-tight">
+      <div className="mx-auto w-11/12 lg:max-w-5xl">
+        <p className="mx-auto mb-8 text-[2.25rem] leading-[130%] tracking-tight">
           Frequenty Asked Questions
         </p>
-        <div className="mx-auto mb-4 w-11/12 space-y-2 rounded-lg border border-[#d6ebfd30] p-4">
-          <p className="text-neutral-100">
-            Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
-          </p>
-          <p className="pl-6 text-neutral-400">
-            A: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="item-1" className="border-[#d6ebfd30]">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2" className="border-[#d6ebfd30]">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              Yes. It comes with default styles that matches the other
+              components&apos; aesthetic.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3" className="border-[#d6ebfd30]">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              Yes. It&apos;s animated by default, but you can disable it if you
+              prefer.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
       <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
         <p className="text-4xl font-semibold leading-[120%] tracking-tight">
