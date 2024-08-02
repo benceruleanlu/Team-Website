@@ -49,7 +49,7 @@ const CodeBlock = () => {
           React Native
         </div>
       </div>
-      <pre className="!mt-0 max-h-[60vh] overflow-y-auto rounded-b-3xl border border-[#d6ebfd30] !bg-[#050505] p-4">
+      <pre className="!mt-0 max-h-[60vh] rounded-b-3xl border border-[#d6ebfd30] !bg-[#050505] p-4" style={{ scrollbarColor: 'gray #050505', scrollbarWidth: 'thin' }}>
         {selected === "Java" && (
           <code className="language-java">
             {`package ca.team4308.absolutelib.control;
