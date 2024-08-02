@@ -19,7 +19,7 @@ export default function CarouselPlugin() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="mx-auto max-w-2xl text-black"
+      className="mx-auto w-11/12 max-w-2xl text-black"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
@@ -30,6 +30,7 @@ export default function CarouselPlugin() {
             width={999}
             height={999}
             alt={"Placeholder"}
+            className="rounded-lg"
           />
         </CarouselItem>
         <CarouselItem>
@@ -38,6 +39,7 @@ export default function CarouselPlugin() {
             width={999}
             height={999}
             alt={"Placeholder"}
+            className="rounded-lg"
           />
         </CarouselItem>
         <CarouselItem>
@@ -46,11 +48,12 @@ export default function CarouselPlugin() {
             width={999}
             height={999}
             alt={"Placeholder"}
+            className="rounded-lg"
           />
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="hidden lg:flex" />
+      <CarouselNext className="hidden lg:flex" />
     </Carousel>
   );
 }

@@ -52,21 +52,19 @@ export default function Home() {
         <FancyDivider curve={true} sharp={false} />
         <SponsorCarousel />
 
-        <div className="mt-32">
-          <div className="mx-auto w-11/12 space-y-6 text-center">
-            <p className="text-5xl leading-tight tracking-tight">
-              Work in
-              <span> </span>
-              <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text font-semibold text-transparent">
-                Engineering
-              </span>
-            </p>
-            <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
-              Students are trained to use industry standard CAD software,
-              machinery, and power tools to design and manufacture the robot.
-            </p>
-            <Carousel />
-          </div>
+        <div className="*:mx-auto mt-32 space-y-6 text-center">
+          <p className="w-11/12 text-5xl leading-tight tracking-tight">
+            Work in
+            <span> </span>
+            <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text font-semibold text-transparent">
+              Engineering
+            </span>
+          </p>
+          <p className="w-11/12 mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
+            Students are trained to use industry standard CAD software,
+            machinery, and power tools to design and manufacture the robot.
+          </p>
+          <Carousel />
         </div>
 
         <div className="mt-28">
