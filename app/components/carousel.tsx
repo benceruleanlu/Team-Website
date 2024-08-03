@@ -25,13 +25,7 @@ export default function CarouselPlugin() {
     >
       <CarouselContent>
         <CarouselItem>
-          <Image
-            src={"/robot.png"}
-            width={999}
-            height={999}
-            alt={"Placeholder"}
-            className="rounded-lg"
-          />
+          <video src="bot.mp4" autoPlay muted loop></video>
         </CarouselItem>
         <CarouselItem>
           <Image
@@ -44,11 +38,11 @@ export default function CarouselPlugin() {
         </CarouselItem>
         <CarouselItem>
           <Image
-            src={"/robot.png"}
-            width={999}
-            height={999}
+            src={"/goose.jpg"}
+            width={956}
+            height={1275}
             alt={"Placeholder"}
-            className="rounded-lg"
+            className="max-h-[32rem] rounded-lg object-cover"
           />
         </CarouselItem>
       </CarouselContent>
