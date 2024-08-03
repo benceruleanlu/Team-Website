@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mx-auto my-24 mb-0 w-11/12">
+        {/* <div className="mx-auto my-24 mb-0 w-11/12">
           <h2 className="font-book font-styling font-display text-slate-12 relative z-20 mb-4 text-[2.25rem] leading-[130%] tracking-tight">
             Read More
           </h2>
@@ -167,7 +167,7 @@ export default function Home() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="mx-auto mt-24 w-11/12 space-y-6 text-center md:mb-24 md:space-y-8">
           <p className="text-5xl font-semibold leading-tight tracking-tight md:text-6xl">
