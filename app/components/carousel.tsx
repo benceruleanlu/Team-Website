@@ -25,7 +25,7 @@ export default function CarouselPlugin() {
     >
       <CarouselContent>
         <CarouselItem>
-          <video src="bot.mp4" autoPlay muted loop></video>
+          <video src="bot.mp4" autoPlay muted loop className="rounded-lg"></video>
         </CarouselItem>
         <CarouselItem>
           <Image
