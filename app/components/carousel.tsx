@@ -66,11 +66,20 @@ export default function CarouselPlugin() {
           </CarouselItem>
           <CarouselItem>
             <Image
-              src={"/goose.jpg"}
-              width={956}
-              height={1275}
+              src={"/drivetrain.jpg"}
+              width={1350}
+              height={1080}
               alt={"Placeholder"}
-              className="object-cover h-min rounded-lg hover:object-scale-down"
+              className="rounded-lg"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <Image
+              src={"/shooter.jpg"}
+              width={1350}
+              height={1080}
+              alt={"Placeholder"}
+              className="rounded-lg"
             />
           </CarouselItem>
         </CarouselContent>
