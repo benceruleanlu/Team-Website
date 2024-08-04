@@ -1,5 +1,11 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Sponsor() {
   return (
@@ -200,6 +206,50 @@ export default function Sponsor() {
             </p>
           </li>
         </ol>
+      </div>
+      <div className="mx-auto mt-24 w-11/12 lg:max-w-5xl">
+        <p className="mx-auto mb-8 text-[2.25rem] leading-[130%] tracking-tight">
+          Frequenty Asked Questions
+        </p>
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="item-1" className="border-[#d6ebfd30]">
+            <AccordionTrigger>
+              Help! I&apos;m having problems with something!
+            </AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              Most issues can be resolved with a quick message to our teacher
+              sponsor, captains, or leads. You can contact us through{" "}
+              <a
+                href="mailto:the.woodlands.robotics@gmail.com"
+                target="_blank"
+                className="text-white underline"
+              >
+                email
+              </a>
+              ,{" "}
+              <a
+                href="https://www.instagram.com/frc4308/"
+                target="_blank"
+                className="text-white underline"
+              >
+                social media
+              </a>
+              , or in person.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2" className="border-[#d6ebfd30]">
+            <AccordionTrigger>
+              What if I can't afford the registration fee?
+            </AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              Our goal is to make robotics accessible to everyone. If you are
+              struggling with the registration fee, please reach our to a
+              captain or our teacher sponsor to apply for financial aid. We
+              review each application on a case-by-case basis and will do our
+              best to accomodate your needs.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Footer />
