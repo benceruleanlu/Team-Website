@@ -94,11 +94,17 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Name & logo on team banner</p>
             </li>
           </ul>
-          <Link href="/contact" className="mt-auto">
-            <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
-              Contact Us
+          <div className="mt-auto">
+            <div>
+              <a
+                href="mailto:the.woodlands.robotics@gmail.com"
+                target="_blank"
+                className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
+              >
+                Contact Us
+              </a>
             </div>
-          </Link>
+          </div>
         </div>
         <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Silver</p>
@@ -142,11 +148,17 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Shoutout at competition ceremonies</p>
             </li>
           </ul>
-          <Link href="/contact" className="mt-auto">
-            <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
-              Contact Us
+          <div className="mt-auto">
+            <div>
+              <a
+                href="mailto:the.woodlands.robotics@gmail.com"
+                target="_blank"
+                className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
+              >
+                Contact Us
+              </a>
             </div>
-          </Link>
+          </div>
         </div>
         <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Gold</p>
@@ -192,11 +204,17 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Robot demonstration to company</p>
             </li>
           </ul>
-          <Link href="/contact" className="mt-auto">
-            <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
-              Contact Us
+          <div className="mt-auto">
+            <div>
+              <a
+                href="mailto:the.woodlands.robotics@gmail.com"
+                target="_blank"
+                className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
+              >
+                Contact Us
+              </a>
             </div>
-          </Link>
+          </div>
         </div>
         <div className="flex h-auto w-full flex-col rounded-3xl border border-[#d6ebfd30] text-center md:w-[300px] md:w-[400px] lg:w-[450px]">
           <p className="mb-8 mt-6">Title Sponsor</p>
@@ -240,11 +258,17 @@ export default function Sponsor() {
               <p className="pt-[0.11em]">Anodized robot to company colours</p>
             </li>
           </ul>
-          <Link href="/contact" className="mt-auto">
-            <div className="mx-auto mb-6 mt-8 w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black">
-              Available (1/1) - Contact Us
+          <div className="mt-auto">
+            <div>
+              <a
+                href="mailto:the.woodlands.robotics@gmail.com"
+                target="_blank"
+                className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
+              >
+                Available (1/1) - Contact Us
+              </a>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
       <div className="mx-auto my-24 max-w-5xl">
