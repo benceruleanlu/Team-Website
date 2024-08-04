@@ -8,48 +8,20 @@ import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 
-const CodeBlock = () => {
-  const [selected, setSelected] = useState<string>("Java");
+interface CodeBlockProps {
+  language: string;
+}
+
+const CodeBlock: React.FC<CodeBlockProps> = ({ language }) => {
+  const [selected, setSelected] = useState<string>(language);
 
   useEffect(() => {
     Prism.highlightAll();
   }, [selected]);
 
-  const handleLanguageChange = (language: string) => {
-    setSelected(language);
-  };
-
   return (
     <>
-      <div className="relative flex flex-row rounded-t-3xl border border-b-0 border-[#d6ebfd30] p-3 *:p-1 *:px-2">
-        <div
-          aria-hidden="true"
-          className="absolute right-0 top-0 z-10 h-px w-[300px] !p-0"
-          style={{
-            background:
-              "linear-gradient(90deg, rgba(56, 189, 248, 0) 0%, rgba(56, 189, 248, 0) 0%, rgba(232, 232, 232, 0.2) 33.02%, rgba(143, 143, 143, 0.67) 64.41%, rgba(236, 72, 153, 0) 98.93%)",
-          }}
-        ></div>
-        <div
-          className={`cursor-pointer ${selected === "Java" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
-          onClick={() => handleLanguageChange("Java")}
-        >
-          Java
-        </div>
-        <div
-          className={`ml-4 cursor-pointer ${selected === "Next.js" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
-          onClick={() => handleLanguageChange("Next.js")}
-        >
-          Next.js
-        </div>
-        <div
-          className={`ml-4 cursor-pointer ${selected === "React Native" ? "rounded-md bg-gradient-to-b from-neutral-100/25 to-80% outline outline-1 outline-[#d6ebfd30]" : ""}`}
-          onClick={() => handleLanguageChange("React Native")}
-        >
-          React Native
-        </div>
-      </div>
-      <pre className="!mt-0 max-h-[60vh] rounded-b-3xl border border-[#d6ebfd30] !bg-[#050505] p-4" style={{ scrollbarColor: 'gray #050505', scrollbarWidth: 'thin' }}>
+      <pre className="!m-0 !overflow-hidden !bg-[#050505]">
         {selected === "Java" && (
           <code className="language-java">
             {`package ca.team4308.absolutelib.control;
