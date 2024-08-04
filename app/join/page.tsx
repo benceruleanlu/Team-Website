@@ -143,7 +143,7 @@ export default function Sponsor() {
               .
             </p>
           </li>
-          <li className="ms-4">
+          <li className="mb-10 ms-4">
             <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
             <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
               November 10
@@ -152,7 +152,35 @@ export default function Sponsor() {
               Subteam Decisions Released
             </h3>
             <p className="mb-4 text-base font-normal text-neutral-400">
-              Congratulations! After receiving your subteam offers, you will be able to finalize your subteam choice for the season.
+              Congratulations! After receiving your subteam offers, you will be
+              able to finalize your subteam choice for the season.
+            </p>
+          </li>
+          <li className="mb-10 ms-4">
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
+              January 4
+            </time>
+            <h3 className="text-lg font-semibold text-white">Season Kickoff</h3>
+            <p className="mb-4 text-base font-normal text-neutral-400">
+              The team will be heading over to UTM to watch the FRC Reefscape
+              kickoff livestream and learn how this year's game will be played.
+              We will also begin discussions on how we will approach the game
+              and what our strategy will be.
+            </p>
+          </li>
+          <li className="ms-4">
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
+              January 5 - March XX
+            </time>
+            <h3 className="text-lg font-semibold text-white">Build Season</h3>
+            <p className="mb-4 text-base font-normal text-neutral-400">
+              Immediately after the kickoff meeting, the team will begin the
+              build season. During this time, we will design, prototype, and
+              build our robot for the upcoming competitions. Each subteam will
+              stick to their own schedule and work on their own tasks to ensure
+              the robot is competition ready!
             </p>
           </li>
         </ol>
