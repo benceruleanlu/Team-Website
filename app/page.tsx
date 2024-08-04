@@ -140,8 +140,8 @@ export default function Home() {
                   Java
                 </h2>
                 <p className="sans text-sm font-normal leading-[1.6] text-[#f1f7feb5]">
-                  The controls subteam uses Java to control the robot's swerve
-                  drive and motors.
+                  The controls subteam uses Java to control the robot&apos;s
+                  swerve drive and motors.
                 </p>
               </div>
             </div>
