@@ -51,13 +51,15 @@ export default function CarouselPlugin() {
               muted
               loop
               className="rounded-lg"
+              width={1350}
+              height={1080}
             ></video>
           </CarouselItem>
           <CarouselItem>
             <Image
               src={"/robot.png"}
-              width={999}
-              height={999}
+              width={1350}
+              height={1080}
               alt={"Placeholder"}
               className="rounded-lg"
             />
@@ -68,7 +70,7 @@ export default function CarouselPlugin() {
               width={956}
               height={1275}
               alt={"Placeholder"}
-              className="max-h-[32rem] rounded-lg object-cover"
+              className="object-cover h-min rounded-lg hover:object-scale-down"
             />
           </CarouselItem>
         </CarouselContent>

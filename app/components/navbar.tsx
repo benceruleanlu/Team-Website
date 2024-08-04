@@ -14,7 +14,7 @@ export default function Navbar() {
             </p>
           </div>
         </Link>
-        <ul className="hidden flex-row items-center space-x-10 text-sm text-[#f1f7feb5] md:flex">
+        <ul className="hidden flex-row items-center space-x-10 text-sm text-[#f1f7feb5] lg:flex">
           <li>
             <Link href="/join">Students</Link>
           </li>
@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link href="/blog">Blog</Link>
           </li>
         </ul>
-        <div className="hidden items-center text-sm md:flex md:flex-row md:space-x-8">
+        <div className="hidden items-center text-sm lg:flex lg:flex-row lg:space-x-8">
           <Link
             className="justify-center rounded-full font-semibold text-neutral-400"
             href="/join"

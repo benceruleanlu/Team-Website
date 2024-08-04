@@ -8,7 +8,7 @@ const MyComponent = () => {
   const toggleOpen = () => setOpen(!open);
 
   return (
-    <div className="flex md:hidden">
+    <div className="flex lg:hidden">
       <svg
         viewBox="0 0 100 80"
         width="24"
