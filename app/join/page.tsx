@@ -12,8 +12,7 @@ export default function Sponsor() {
           </span>
         </p>
         <p className="mx-auto max-w-4xl text-balance px-1 text-neutral-400 md:text-[1.125rem] md:leading-[1.5]">
-          Register with 4308 for the Reefscape 24/25 season packed with
-          technical & mechanical training.
+          Register with Absolute Robotics for the Reefscape 24/25 FRC season.
         </p>
       </div>
       <div
