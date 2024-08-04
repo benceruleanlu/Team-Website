@@ -60,7 +60,7 @@ export default function Home() {
               Engineering
             </span>
           </p>
-          <p className="sans mx-auto mb-12 max-w-3xl text-center text-base font-normal text-[#f1f7feb5] md:text-[1.125rem] md:leading-[1.5]">
+          <p className="sans mx-auto mb-12 max-w-3xl text-balance text-base font-normal text-[#f1f7feb5] md:text-[1.125rem] md:leading-[1.5]">
             Students are trained to use industry standard CAD software,
             machinery, and power tools to design and manufacture the robot.
           </p>
