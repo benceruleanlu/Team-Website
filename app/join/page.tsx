@@ -72,22 +72,38 @@ export default function Sponsor() {
               September 12
             </time>
             <h3 className="text-lg font-semibold text-white">
-              All Registration Due
+              Team Registration Due
             </h3>
             <p className="mb-4 text-base font-normal text-neutral-400">
-              By this date, team members should have submitted their (1)
-              Absolute Robotics registration Google Form, (2) FIRST
-              registration, and (3) payment on School Cash Online. If you need
-              any help with this process, please reach out to the team either
-              in-person or through{" "}
-              <a
-                href="mailto:the.woodlands.robotics@gmail.com"
-                target="_blank"
-                className="text-white/80 underline"
-              >
-                email
-              </a>
-              .
+              By this date, team members should have submitted their Absolute
+              Robotics registration Google Form. The link to this Google Form
+              will be linked here soon.
+            </p>
+          </li>
+          <li className="mb-10 ms-4">
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
+              September 20
+            </time>
+            <h3 className="text-lg font-semibold text-white">
+              Team Registration Fee Due
+            </h3>
+            <p className="mb-4 text-base font-normal text-neutral-400">
+              By this date, team members should have paid their team
+              registration fee on School Cash Online.
+            </p>
+          </li>
+          <li className="mb-10 ms-4">
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
+              September 20
+            </time>
+            <h3 className="text-lg font-semibold text-white">
+              FIRST Registration Due
+            </h3>
+            <p className="mb-4 text-base font-normal text-neutral-400">
+              By this date, team members should have completed all required
+              forms and signups on the FIRST website.
             </p>
           </li>
           <li className="mb-10 ms-4">
