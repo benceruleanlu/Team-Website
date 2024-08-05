@@ -84,6 +84,7 @@ export default function Home() {
             >
               Senior developers with decades of industry experience mentor our
               students.
+              <div className="inline sm:hidden">{" "}</div>
               <br className="hidden sm:block" />
               We make sure every team member is equipped with the knowledge and
               tools they need to succeed.
