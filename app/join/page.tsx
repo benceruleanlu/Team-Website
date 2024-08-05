@@ -207,6 +207,78 @@ export default function Sponsor() {
           </li>
         </ol>
       </div>
+      <div className="mx-auto mt-24 px-6 w-11/12 lg:max-w-5xl">
+        <div>
+          <p className="mx-auto max-w-[860px] text-center text-[3rem] md:text-[3.5rem] tracking-tight leading-[120%] text-[#fcfdffef]">
+            Subteams Summarized
+          </p>
+          <p className="sans mx-auto max-w-[760px] text-center text-base md:text-[1.125rem] md:leading-[1.5] text-[#f1f7feb5] font-normal">
+            Each subteam serves a different role in the team. Remember that these jot notes do not reflect the entirity of each subteam.
+          </p>
+        </div>
+        <div className="mt-16 grid grid-cols-1 w-full sm:grid-cols-2 md:max-w-7xl md:flex-row lg:grid-cols-3">
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Build
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Designs the robot</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates robot CADs in solidworks</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Physically manufactures the robot</li>
+            </ul>
+          </div>
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Controls
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for robot vision</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for robot mechanisms</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for auton phase</li>
+            </ul>
+          </div>
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Competition
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Ensures robot meets regulations</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Plans match strategy</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Plans robot design criteria</li>
+            </ul>
+          </div>
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Scouting App/Web
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for scouting app</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for scouting website</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Manages scouting database during competition</li>
+            </ul>
+          </div>
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Marketing
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Networks for sponsorships</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Cold calls for sponsorships</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Cold emails for sponsorships</li>
+            </ul>
+          </div>
+          <div className="px-3 py-4 md:px-10 md:py-12">
+            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
+              Media
+            </p>
+            <ul className="list-disc list-inside marker:text-white space-y-2">
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Takes photos & videos of team events</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates social media posts</li>
+              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates advertising videos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="mx-auto mt-24 w-11/12 lg:max-w-5xl">
         <p className="mx-auto mb-8 text-[2.25rem] leading-[130%] tracking-tight">
           Frequenty Asked Questions
@@ -243,10 +315,18 @@ export default function Sponsor() {
             </AccordionTrigger>
             <AccordionContent className="text-[#f1f7feb5]">
               Our goal is to make robotics accessible to everyone. If you are
-              struggling with the registration fee, please reach our to a
+              struggling with the registration fee, please reach out to a
               captain or our teacher sponsor to apply for financial aid. We
               review each application on a case-by-case basis and will do our
               best to accomodate your needs.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3" className="border-[#d6ebfd30]">
+            <AccordionTrigger>
+              What if I get rejected from every subteam?
+            </AccordionTrigger>
+            <AccordionContent className="text-[#f1f7feb5]">
+              All members are able to join the build subteam, where you help design and CAD the robot.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
