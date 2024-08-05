@@ -186,9 +186,9 @@ export default function Sponsor() {
             <h3 className="text-lg font-semibold text-white">Season Kickoff</h3>
             <p className="mb-4 text-base font-normal text-neutral-400">
               The team will be heading over to UTM to watch the FRC Reefscape
-              kickoff livestream and learn how this year's game will be played.
-              We will also begin discussions on how we will approach the game
-              and what our strategy will be.
+              kickoff livestream and learn how this year&apos;s game will be
+              played. We will also begin discussions on how we will approach the
+              game and what our strategy will be.
             </p>
           </li>
           <li className="ms-4">
@@ -239,7 +239,7 @@ export default function Sponsor() {
           </AccordionItem>
           <AccordionItem value="item-2" className="border-[#d6ebfd30]">
             <AccordionTrigger>
-              What if I can't afford the registration fee?
+              What if I can&apos;t afford the registration fee?
             </AccordionTrigger>
             <AccordionContent className="text-[#f1f7feb5]">
               Our goal is to make robotics accessible to everyone. If you are
