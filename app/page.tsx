@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className="mt-32 space-y-6 text-center *:mx-auto">
           <p className="w-11/12 text-5xl leading-tight tracking-tight">
-            Work in
+            Experience
             <span> </span>
             <span className="bg-gradient-to-br from-[#E131F3] via-[#59B2EA] to-[#A7FC8F] bg-clip-text font-semibold text-transparent">
               Engineering
