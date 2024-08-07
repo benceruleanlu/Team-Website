@@ -326,7 +326,7 @@ export default function Sponsor() {
               What if I get rejected from every subteam?
             </AccordionTrigger>
             <AccordionContent className="text-[#f1f7feb5]">
-              All members are able to join the build subteam, where you help design and CAD the robot.
+              All members are able to join the build subteam, where you can design and build the robot, game pieces, and prototypes!
             </AccordionContent>
           </AccordionItem>
         </Accordion>
