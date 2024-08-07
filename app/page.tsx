@@ -293,11 +293,11 @@ export default function Home() {
               Get involved.
             </span>
           </p>
-          <div className="flex flex-col space-y-2 md:flex-row md:justify-center md:space-x-4 md:space-y-0">
+          <div className="flex flex-col space-y-2 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0">
             <Button
               text="Sponsor"
               link="/sponsor"
-              className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black md:pl-6 md:pr-3"
+              className="flex flex-row justify-center rounded-full bg-white p-3 font-semibold text-black sm:pl-6 sm:pr-3"
             />
             <Button
               text="Join"
