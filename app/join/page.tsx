@@ -216,65 +216,62 @@ export default function Sponsor() {
             Each subteam serves a different role in the team. Remember that these jot notes do not reflect the entirity of each subteam.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 w-full sm:grid-cols-2 md:max-w-7xl md:flex-row lg:grid-cols-3">
-          <div className="px-3 py-4 md:px-10 md:py-12">
+        <div className="mt-16 grid grid-cols-1 w-full sm:grid-cols-2 md:max-w-7xl md:flex-row lg:grid-cols-3 gap-4">
+          <div className="px-3 py-4 md:px-5 md:py-6 group md:border md:rounded-xl md:border-[#d6ebfd30]">
             <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
               Build
             </p>
             <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Designs the robot</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates robot CADs in solidworks</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Physically manufactures the robot</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Designs the robot</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Prototype mechanisms to finalize design</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Design the robot using CAD software</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Manufacture and assemble the robot</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Construct game pieces for each season</li>
             </ul>
           </div>
-          <div className="px-3 py-4 md:px-10 md:py-12">
+          <div className="px-3 py-4 md:px-5 md:py-6 md:border md:rounded-xl md:border-[#d6ebfd30] group">
             <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
               Controls
             </p>
             <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for robot vision</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for robot mechanisms</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for auton phase</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Code robot control mechanisms</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Wire the robot&apos;s electrical systems</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Test and troubleshoot hardware and software issues</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Design electronics layout with build team</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Configure robot sensors and vision systems</li>
             </ul>
           </div>
-          <div className="px-3 py-4 md:px-10 md:py-12">
+          <div className="px-3 py-4 md:px-5 md:py-6 md:border md:rounded-xl md:border-[#d6ebfd30] group">
             <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
               Competition
             </p>
             <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Ensures robot meets regulations</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Plans match strategy</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Plans robot design criteria</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Ensures robot meets regulations</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Plans robot design criteria</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Plans match strategy</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Develops scouting app</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Develops scouting website</li>
             </ul>
           </div>
-          <div className="px-3 py-4 md:px-10 md:py-12">
-            <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
-              Scouting App/Web
-            </p>
-            <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for scouting app</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Writes code for scouting website</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Manages scouting database during competition</li>
-            </ul>
-          </div>
-          <div className="px-3 py-4 md:px-10 md:py-12">
+          <div className="px-3 py-4 md:px-5 md:py-6 md:border md:rounded-xl md:border-[#d6ebfd30] group">
             <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
               Marketing
             </p>
             <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Networks for sponsorships</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Cold calls for sponsorships</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Cold emails for sponsorships</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Networks for sponsorships</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Cold calls for sponsorships</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Cold emails for sponsorships</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Door to door for sponsorships</li>
             </ul>
           </div>
-          <div className="px-3 py-4 md:px-10 md:py-12">
+          <div className="px-3 py-4 md:px-5 md:py-6 md:border md:rounded-xl md:border-[#d6ebfd30] group">
             <p className="leading-8 md:leading-none text-xl leading-[130%] text-[#fcfdffef] mb-4">
               Media
             </p>
             <ul className="list-disc list-inside marker:text-white space-y-2">
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Takes photos & videos of team events</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates social media posts</li>
-              <li className="truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2">Creates advertising videos</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Trakes photos & videos of team events</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Creates social media posts</li>
+              <li className="md:truncate text-sm leading-[1.6] text-[#f1f7feb5] pl-2 group-hover:whitespace-normal">Creates advertising videos</li>
             </ul>
           </div>
         </div>
