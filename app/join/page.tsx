@@ -213,7 +213,7 @@ export default function Sponsor() {
             Subteams Summarized
           </p>
           <p className="sans mx-auto max-w-[760px] text-center text-base md:text-[1.125rem] md:leading-[1.5] text-[#f1f7feb5] font-normal">
-            Each subteam serves a different role in the team. Remember that these jot notes do not reflect the entirity of each subteam.
+            We&apos;ve organized ourselves into a few groups that specialize in the various fields pertaining to the team. However, your time in the club isn&apos;t restricted to a single discipline.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 w-full sm:grid-cols-2 md:max-w-7xl md:flex-row lg:grid-cols-3 gap-4">
