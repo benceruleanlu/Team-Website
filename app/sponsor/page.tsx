@@ -271,7 +271,7 @@ export default function Sponsor() {
           </div>
         </div>
       </div>
-      <div className="mx-auto my-24 max-w-5xl">
+      <div className="mx-auto my-36 max-w-5xl">
         <Sponsors />
       </div>
       <div className="mx-auto w-11/12 lg:max-w-5xl">
@@ -301,7 +301,7 @@ export default function Sponsor() {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className="mx-auto mt-24 w-11/12 space-y-6 text-center">
+      <div className="mx-auto mt-36 w-11/12 space-y-6 text-center">
         <p className="text-4xl font-semibold leading-[120%] tracking-tight">
           <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
             Need something else?

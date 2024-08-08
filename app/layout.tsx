@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Absolute Robotics",
-  description: "Absolute Robotics, Team 4308, is a high school robotics team based in Ontario, Canada. We bring students together from the Woodlands Secondary School to compete in the FIRST Robotics Competition.",
+  description:
+    "Absolute Robotics, Team 4308, is a high school robotics team based in Ontario, Canada. We bring students together from the Woodlands Secondary School to compete in the FIRST Robotics Competition.",
 };
 
 export default function RootLayout({
