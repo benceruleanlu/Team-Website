@@ -213,9 +213,9 @@ export default function Sponsor() {
             Subteams Summarized
           </p>
           <p className="sans mx-auto max-w-[760px] text-center text-base font-normal text-[#f1f7feb5] md:text-[1.125rem] md:leading-[1.5]">
-            We&apos;ve organized ourselves into a few groups that specialize in
-            the various fields pertaining to the team. However, your time in the
-            club isn&apos;t restricted to a single discipline.
+            Team members are organized into specialized subteams. Despite the
+            separation, cross-subteam collaboration is emphasized to ensure
+            robot quality.
           </p>
         </div>
         <div className="mt-16 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 md:max-w-7xl md:flex-row lg:grid-cols-3">
