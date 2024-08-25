@@ -15,13 +15,13 @@ export default function Home() {
       <Navbar />
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
         <Spline
-          scene="https://prod.spline.design/5j0HM0tVtyZUlBjh/scene.splinecode"
+          scene="./lines.splinecode"
           style={{ width: "100vw", height: "40vh", marginBottom: "2em" }}
           className={"block lg:hidden"}
         />
         <div className="md:mx-auto md:w-11/12 lg:flex lg:h-screen lg:flex-row-reverse lg:items-center">
           <Spline
-            scene="https://prod.spline.design/WG9UFhrJ7C7BVk0y/scene.splinecode"
+            scene="./logo.splinecode"
             className={"hidden lg:block"}
           />
           <div className="mx-auto mb-24 w-11/12 space-y-6 text-center md:mt-16 md:text-left">

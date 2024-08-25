@@ -12,7 +12,7 @@
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@splinetool/react-spline": "^4.0.0",
-    "@splinetool/runtime": "^1.8.5",
+    "@splinetool/runtime": "^1.9.20",
     "@types/prismjs": "^1.26.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
