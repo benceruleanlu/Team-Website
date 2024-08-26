@@ -20,10 +20,7 @@ export default function Home() {
           className={"block lg:hidden"}
         />
         <div className="md:mx-auto md:w-11/12 lg:flex lg:h-screen lg:flex-row-reverse lg:items-center">
-          <Spline
-            scene="./logo.splinecode"
-            className={"hidden lg:block"}
-          />
+          <Spline scene="./logo.splinecode" className={"hidden lg:block"} />
           <div className="mx-auto mb-24 w-11/12 space-y-6 text-center md:mt-16 md:text-left">
             <p className="text-[3.25rem] font-semibold leading-tight tracking-tight subpixel-antialiased md:text-6xl">
               <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">

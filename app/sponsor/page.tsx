@@ -280,23 +280,12 @@ export default function Sponsor() {
         </p>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1" className="border-[#d6ebfd30]">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionTrigger>
+              Are your sponsorship packages tax deductable?
+            </AccordionTrigger>
             <AccordionContent className="text-[#f1f7feb5]">
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-2" className="border-[#d6ebfd30]">
-            <AccordionTrigger>Is it styled?</AccordionTrigger>
-            <AccordionContent className="text-[#f1f7feb5]">
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3" className="border-[#d6ebfd30]">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent className="text-[#f1f7feb5]">
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+              Yes! We can provide our charitable registration number on request,
+              and you will be able to file a tax deductible for the full amount!
             </AccordionContent>
           </AccordionItem>
         </Accordion>
