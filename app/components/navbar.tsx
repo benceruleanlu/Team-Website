@@ -19,9 +19,6 @@ export default function Navbar() {
             <Link href="/join">Students</Link>
           </li>
           <li>
-            <Link href="/parents">Parents</Link>
-          </li>
-          <li>
             <Link href="/sponsor">Sponsors</Link>
           </li>
           <li>
