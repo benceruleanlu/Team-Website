@@ -364,15 +364,6 @@ export default function Sponsor() {
               best to accomodate your needs.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3" className="border-[#d6ebfd30]">
-            <AccordionTrigger>
-              What if I get rejected from every subteam?
-            </AccordionTrigger>
-            <AccordionContent className="text-[#f1f7feb5]">
-              All members are able to join the build subteam, where you can
-              design and build the robot, game pieces, and prototypes!
-            </AccordionContent>
-          </AccordionItem>
         </Accordion>
       </div>
       <div className="mx-auto max-w-7xl bg-[#050505] text-white">
