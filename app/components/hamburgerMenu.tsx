@@ -26,7 +26,13 @@ const MyComponent = () => {
       >
         <div className="flex flex-row items-center justify-between">
           <p className="text-2xl font-semibold">Navigation</p>
-          <svg viewBox="0 0 40 40" width="40" height="40" onClick={toggleOpen} className="cursor-pointer">
+          <svg
+            viewBox="0 0 40 40"
+            width="40"
+            height="40"
+            onClick={toggleOpen}
+            className="cursor-pointer"
+          >
             <path
               d="M 10,10 L 30,30 M 30,10 L 10,30"
               stroke="#FFFFFF"
