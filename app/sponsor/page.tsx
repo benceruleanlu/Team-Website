@@ -101,7 +101,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                Contact Us
+                the.woodlands.robotics@gmail.com
               </a>
             </div>
           </div>
@@ -155,7 +155,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                Contact Us
+                the.woodlands.robotics@gmail.com
               </a>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                Contact Us
+                the.woodlands.robotics@gmail.com
               </a>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                Available (1/1) - Contact Us
+                the.woodlands.robotics@gmail.com
               </a>
             </div>
           </div>
@@ -305,7 +305,7 @@ export default function Sponsor() {
           href="mailto:the.woodlands.robotics@gmail.com"
           target="_blank"
         >
-          Email Us
+          the.woodlands.robotics@gmail.com
           <svg
             className="text-[#70757E]"
             fill="none"

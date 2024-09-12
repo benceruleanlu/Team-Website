@@ -33,7 +33,7 @@ export default function Footer() {
           </li>
           <li>
             <a href="mailto:the.woodlands.robotics@gmail.com" target="_blank">
-              Email
+              the.woodlands.robotics@gmail.com
             </a>
           </li>
         </ul>

@@ -160,7 +160,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="text-white/80 underline"
               >
-                email
+                the.woodlands.robotics@gmail.com
               </a>
               .
             </p>
@@ -339,7 +339,7 @@ export default function Sponsor() {
                 target="_blank"
                 className="text-white underline"
               >
-                email
+                the.woodlands.robotics@gmail.com
               </a>
               ,{" "}
               <a
