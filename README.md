@@ -1,6 +1,8 @@
 # Website for Absolute Robotics
 
-Team website rewrite in Next.js.
+Proper development pipeline will be set up soon.
+
+Check back later for developer docs and information.
 
 > [!NOTE]
-> Temporarily hosted at [benlu.ca](https://benlu.ca/) until completion
+> Development on this project is iterative and quick. If you're not breaking things then you're not moving fast enough.
