@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Sponsors from "@/components/sponsorCarousel";
 import {
@@ -12,7 +10,6 @@ import {
 export default function Sponsor() {
   return (
     <>
-      <Navbar />
       <div className="mx-auto mb-12 mt-36 w-11/12 space-y-2 text-center">
         <p className="text-5xl font-semibold leading-tight tracking-tight">
           <span className="bg-gradient-to-br from-white to-zinc-400 bg-clip-text text-transparent">
