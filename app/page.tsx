@@ -1,13 +1,13 @@
 import Spline from "@splinetool/react-spline/next";
 // import Image from "next/image";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import SponsorCarousel from "./components/sponsorCarousel";
-import Button from "./components/button";
-import FancyDivider from "./components/fancyDivider";
-import CodeEmbed from "./components/codeEmbed";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
+import SponsorCarousel from "@/components/sponsorCarousel";
+import Button from "@/components/button";
+import FancyDivider from "@/components/fancyDivider";
+import CodeEmbed from "@/components/codeEmbed";
 // import Link from "next/link";
-import Carousel from "./components/carousel";
+import Carousel from "@/components/carousel";
 
 export default function Home() {
   return (

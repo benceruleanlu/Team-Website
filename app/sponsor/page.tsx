@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import Sponsors from "../components/sponsorCarousel";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import Sponsors from "@/components/sponsorCarousel";
 import {
   Accordion,
   AccordionContent,
