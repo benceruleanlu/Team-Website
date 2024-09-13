@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <>
+    <div className="mx-auto max-w-7xl bg-[#050505] text-white">
       <FancyDivider curve={false} sharp={true} />
       <div className="mx-auto mb-10 flex w-11/12 flex-row flex-wrap justify-around gap-x-8 text-sm *:space-y-4 *:pr-12 md:-mt-8 md:justify-start md:gap-x-12">
         <ul className="*:text-[#f1f7feb5]">
@@ -38,6 +38,6 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }

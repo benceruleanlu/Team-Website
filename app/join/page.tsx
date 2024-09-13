@@ -1,4 +1,3 @@
-import Footer from "@/components/footer";
 import {
   Accordion,
   AccordionContent,
@@ -363,9 +362,6 @@ export default function Sponsor() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </div>
-      <div className="mx-auto max-w-7xl bg-[#050505] text-white">
-        <Footer />
       </div>
     </>
   );

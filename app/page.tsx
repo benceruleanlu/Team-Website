@@ -1,5 +1,4 @@
 import Spline from "@splinetool/react-spline/next";
-import Footer from "@/components/footer";
 import SponsorCarousel from "@/components/sponsorCarousel";
 import Button from "@/components/button";
 import FancyDivider from "@/components/fancyDivider";
@@ -299,8 +298,6 @@ export default function Home() {
             />
           </div>
         </div>
-
-        <Footer />
       </div>
     </>
   );

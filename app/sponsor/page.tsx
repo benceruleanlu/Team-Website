@@ -1,4 +1,3 @@
-import Footer from "@/components/footer";
 import Sponsors from "@/components/sponsorCarousel";
 import {
   Accordion,
@@ -320,9 +319,6 @@ export default function Sponsor() {
             ></path>
           </svg>
         </a>
-      </div>
-      <div className="mx-auto max-w-7xl bg-[#050505] text-white">
-        <Footer />
       </div>
     </>
   );
