@@ -188,8 +188,8 @@ export default function Home() {
                   React & Next.js
                 </h2>
                 <p className="sans text-sm font-normal leading-[1.6] text-[#f1f7feb5]">
-                  The competition subteam uses React, React Native, and Next.js
-                  to develop the scouting app and website.
+                  The information technology subteam uses React, React Native,
+                  and Next.js to develop the scouting app and website.
                 </p>
               </div>
             </div>
