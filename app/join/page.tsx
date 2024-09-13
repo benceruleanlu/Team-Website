@@ -154,11 +154,11 @@ export default function Sponsor() {
               any questions about this process, please reach out to the team
               either in-person or through{" "}
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="text-white/80 underline"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
               .
             </p>
@@ -333,11 +333,11 @@ export default function Sponsor() {
               Most issues can be resolved with a quick message to our teacher
               sponsor, captains, or leads. You can contact us through{" "}
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="text-white underline"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
               ,{" "}
               <a

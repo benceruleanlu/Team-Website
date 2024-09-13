@@ -94,11 +94,11 @@ export default function Sponsor() {
           <div className="mt-auto">
             <div>
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
             </div>
           </div>
@@ -148,11 +148,11 @@ export default function Sponsor() {
           <div className="mt-auto">
             <div>
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
             </div>
           </div>
@@ -204,11 +204,11 @@ export default function Sponsor() {
           <div className="mt-auto">
             <div>
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
             </div>
           </div>
@@ -258,11 +258,11 @@ export default function Sponsor() {
           <div className="mt-auto">
             <div>
               <a
-                href="mailto:the.woodlands.robotics@gmail.com"
+                href="mailto:contact@team4308.ca"
                 target="_blank"
                 className="mx-auto mb-6 mt-8 inline-block w-10/12 rounded-full bg-white py-2 text-sm font-semibold text-black"
               >
-                the.woodlands.robotics@gmail.com
+                contact@team4308.ca
               </a>
             </div>
           </div>
@@ -299,10 +299,10 @@ export default function Sponsor() {
         </p>
         <a
           className="mx-auto flex h-10 w-max flex-row items-center justify-center rounded-full bg-white pl-5 pr-2 font-semibold text-black"
-          href="mailto:the.woodlands.robotics@gmail.com"
+          href="mailto:contact@team4308.ca"
           target="_blank"
         >
-          the.woodlands.robotics@gmail.com
+          contact@team4308.ca
           <svg
             className="text-[#70757E]"
             fill="none"

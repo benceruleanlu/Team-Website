@@ -32,8 +32,8 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:the.woodlands.robotics@gmail.com" target="_blank">
-              the.woodlands.robotics@gmail.com
+            <a href="mailto:contact@team4308.ca" target="_blank">
+              contact@team4308.ca
             </a>
           </li>
         </ul>
