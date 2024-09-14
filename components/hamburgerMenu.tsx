@@ -58,11 +58,6 @@ const MyComponent = () => {
             </Link>
           </li>
           <li>
-            <Link href="/parents" className="text-lg">
-              Parents
-            </Link>
-          </li>
-          <li>
             <Link href="/blog" className="text-lg">
               Blog
             </Link>
