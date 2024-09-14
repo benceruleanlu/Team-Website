@@ -22,7 +22,7 @@ export default function Sponsor() {
         <ol className="relative border-s border-neutral-400/40">
           <li className="mb-10 ms-4">
             {/* rember is neut 600 for past an 400 for futu */}
-            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-green-400"></div>
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-600"></div>
             <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
               September 9
             </time>
@@ -55,7 +55,7 @@ export default function Sponsor() {
             </a> */}
           </li>
           <li className="mb-10 ms-4">
-            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-600"></div>
             <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
               September 11
             </time>
@@ -70,9 +70,9 @@ export default function Sponsor() {
             </p>
           </li>
           <li className="mb-10 ms-4">
-            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
+            <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-green-500"></div>
             <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
-              September 12
+              September 18
             </time>
             <h3 className="text-lg font-semibold text-white">
               Team Registration Due
@@ -112,7 +112,7 @@ export default function Sponsor() {
           <li className="mb-10 ms-4">
             <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-neutral-400"></div>
             <time className="mb-1 text-sm font-normal leading-none text-neutral-400">
-              September 13 - November 8
+              September 19 - November 8
             </time>
             <h3 className="text-lg font-semibold text-white">
               Subteam Lessons & Bootcamps
