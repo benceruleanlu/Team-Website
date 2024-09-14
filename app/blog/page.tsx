@@ -8,7 +8,7 @@ export default function Sponsor() {
       </div>
       <ul className="grid gap-6 md:grid-cols-2">
         <li className="">
-          <a href="/4308-at-club-fair">
+          <a href="/blog/4308-at-club-fair">
             <div className="space-y-2">
               <img
                 alt="goosifer(s)"
@@ -21,7 +21,7 @@ export default function Sponsor() {
               />
               <div className="mt-2 lg:mt-1">
                 <h2 className="font-book font-styling font-display mt-4 line-clamp-5 text-balance text-[2.25rem] text-[28px] leading-[130%] leading-tight tracking-tight text-[#fcfdffef]">
-                  4308 At Club Fair
+                  4308 at Club Fair
                 </h2>
                 <div className="mt-2.5 flex items-center gap-1.5 md:gap-2 lg:mt-3">
                   <div className="flex gap-1">
