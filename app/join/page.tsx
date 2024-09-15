@@ -78,9 +78,15 @@ export default function Sponsor() {
               Team Registration Due
             </h3>
             <p className="mb-4 text-base font-normal text-neutral-400">
-              By this date, team members should have submitted their Absolute
-              Robotics registration Google Form. The link to this Google Form
-              will be linked here soon.
+              By this date, team members should have submitted their{" "}
+              <a
+                href="https://forms.gle/aWFSWhdDhPqANk856"
+                target="_blank"
+                className="text-white/80 underline"
+              >
+                Absolute Robotics registration Google Form
+              </a>
+              .
             </p>
           </li>
           <li className="mb-10 ms-4">
