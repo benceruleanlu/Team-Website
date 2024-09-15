@@ -1,3 +1,5 @@
+import Carousel from "@/components/c2";
+
 export default function Sponsor() {
   return (
     <div className="mx-auto mt-36 w-full max-w-5xl px-6 md:max-w-7xl">
@@ -35,6 +37,9 @@ export default function Sponsor() {
           <br />
           P.S. Goosifer and his new friend had lots of fun as well!
         </p>
+      </div>
+      <div className="mx-auto mt-8 max-w-96">
+        <Carousel />
       </div>
     </div>
   );

@@ -87,7 +87,7 @@ export default function CarouselPlugin() {
         <CarouselNext className="hidden lg:flex" />
       </Carousel>
       <div className="text-sm text-[#f1f7feb5]">
-        Slide {current} of {count}
+        Image {current} of {count}
       </div>
     </>
   );
