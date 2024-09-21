@@ -292,7 +292,7 @@ export default function Sponsor() {
             </p>
             <ul className="list-inside list-disc space-y-2 marker:text-white">
               <li className="pl-2 text-sm leading-[1.6] text-[#f1f7feb5] group-hover:whitespace-normal md:truncate">
-                Trakes photos & videos of team events
+                Takes photos & videos of team events
               </li>
               <li className="pl-2 text-sm leading-[1.6] text-[#f1f7feb5] group-hover:whitespace-normal md:truncate">
                 Creates social media posts

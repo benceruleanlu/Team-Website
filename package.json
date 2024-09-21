@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@splinetool/react-spline": "^4.0.0",
@@ -19,8 +20,9 @@
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.1.7",
     "embla-carousel-react": "^8.1.7",
+    "gsap": "^3.12.5",
     "lucide-react": "^0.416.0",
-    "next": "14.2.3",
+    "next": "^14.2.13",
     "prismjs": "^1.29.0",
     "react": "^18",
     "react-dom": "^18",
